@@ -76,9 +76,9 @@
 <t id="M_PAUSE_JOB" ver="1">Pozastavit tisk</t>
 <t id="M_KILL_JOB" ver="1">Zrušit tisk</t>
 <t id="M_SD_CARD" ver="1">SD karta</t>
-<t id="M_TOGGLE_LOG" ver="1">Log</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filament</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filament</t>
+<t id="M_TOGGLE_LOG" ver="1">Zobrazit Log</t>
+<t id="M_SHOW_FILAMENT" ver="1">Show Filament</t>
+<t id="M_HIDE_FILAMENT" ver="1">Hide Filament</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Zobrazení vláken vypnuto</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Zobrazení vláken zapnuto</t>
 <t id="L_LOAD_FILE" ver="1">Nahrát soubor</t>
@@ -485,9 +485,9 @@ Možné příčiny:
 <t id="L_UPLOADING_TIME" ver="4">Doba nahrávání: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Zobrazení pohybů vypnuto</t>
-<t id="M_HIDE_TRAVEL" ver="4">Pohyby</t>
+<t id="M_HIDE_TRAVEL" ver="4">Schovat pohyby</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Zobrazení pohybu zapnuté</t>
-<t id="M_SHOW_TRAVEL" ver="4">Pohyby</t>
+<t id="M_SHOW_TRAVEL" ver="4">Zobrazit pohyby</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Přesunovací pohyby:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Vypntou zobrazení pohybů tiskárny</t>
 
@@ -606,5 +606,4 @@ Možné příčiny:
 <t id="M_TOGGLE_PRINTER_ID" ver="9">Zobrazit název tiskárny</t>
 <t id="L_CONNECTOR:" ver="9">Spojení:</t>
 <t id="L_NOT_TESTED" ver="9">netestováno</t>
-<t id="L_SERVER_CONNECTOR_HINT" ver="17">Upozornění: Máte instalaci pomocí Repetier-Server. Důrazně doporučujeme použít spojnice Repetier-Server místo. Kliknutím na tlačítko "Nápověda" pro více informací. </t>
 </translation>

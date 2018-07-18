@@ -1,0 +1,20 @@
+<values>
+<value name="disableQualityReduction"
+type="int">0</value>
+<value name="lastInfoUpdateCheck"
+type="string">63549670534</value>
+<value name="demoModelShown"
+type="int">1</value>
+<value name="logEnabled"
+type="int">0</value>
+<value name="currentPrinter"
+type="string">uDelta</value>
+<value name="showHelpBubbles"
+type="int">1</value>
+<value name="workdir"
+type="string">/home/rocks/.local/share/RepetierHost</value>
+<value name="installPath"
+type="string">/home/rocks/Repetier_1.0.4_eMotionTech_linux_v1.0.6/RepetierHost</value>
+<value name="reduceToolbarSize"
+type="int">0</value>
+</values>

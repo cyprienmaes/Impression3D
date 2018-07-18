@@ -77,8 +77,8 @@
 <t id="M_KILL_JOB" ver="1">Pārtraukt darbu</t>
 <t id="M_SD_CARD" ver="1">SD-Karte</t>
 <t id="M_TOGGLE_LOG" ver="1">Ierakstu žurnāls</t>
-<t id="M_SHOW_FILAMENT" ver="1">Auklu</t>
-<t id="M_HIDE_FILAMENT" ver="1">Auklu</t>
+<t id="M_SHOW_FILAMENT" ver="1">Rādīt auklu</t>
+<t id="M_HIDE_FILAMENT" ver="1">Slēpt auklu</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Auklas vizualizācija atslēgta</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Auklas vizualizācija ieslēgta</t>
 <t id="L_LOAD_FILE" ver="1">Ielādēt datni</t>
@@ -498,9 +498,9 @@ Iespējamie risinājumi:
 <t id="L_UPLOADING_TIME" ver="4">Augšupielādes laiks: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Aukla: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Pārbrauciena vizualizācija atslēgta</t>
-<t id="M_HIDE_TRAVEL" ver="4">Pārbraucienu</t>
+<t id="M_HIDE_TRAVEL" ver="4">Slēpt pārbraucienu</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Pārbrauciena vizualizācija ieslēgta</t>
-<t id="M_SHOW_TRAVEL" ver="4">Pārbraucienu</t>
+<t id="M_SHOW_TRAVEL" ver="4">Rādīt pārbraucienu</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Pārbrauciena kustības:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Atspējot pārbrauciena kustības vizualizāciju</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Galvas numurs:</t>
@@ -614,6 +614,6 @@ Iespējamie risinājumi:
 <t id="L_ANA_CORRECTED_NORMAL_ORIENTATIONS" ver="9">Labotās normāļu orientācijas:</t>
 <t id="L_OBJECT_IS_MANIFOLD" ver="9">Objekts ir noslēgts.</t>
 <t id="L_OBJECT_IS_NON_MANIFOLD" ver="9">Objekts nav noslēgts. Griežot var veidot nepareizu rezultātu. Lūdzu pirmkārt salabojiet objekta datni.</t>
-<t id="L_SERVER_CONNECTOR_HINT" ver="17">Paziņojums: Jums ir Repetier-servera uzstādīšana. Mēs iesakām izmantot Repetier-Server connector vietā. Noklikšķiniet uz "Palīdzība" vairāk informācijas. </t>
+<t id="L_" ver="9"></t>
 </translation>
 

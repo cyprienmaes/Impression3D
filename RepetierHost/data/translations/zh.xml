@@ -76,9 +76,9 @@
     <t id="M_PAUSE_JOB" ver="1">暂停任务</t>
     <t id="M_KILL_JOB" ver="1">中止任务</t>
     <t id="M_SD_CARD" ver="1">SD卡</t>
-    <t id="M_TOGGLE_LOG" ver="1">日志文件</t>
-    <t id="M_SHOW_FILAMENT" ver="1">材料</t>
-    <t id="M_HIDE_FILAMENT" ver="1">材料</t>
+    <t id="M_TOGGLE_LOG" ver="1">是否记录</t>
+    <t id="M_SHOW_FILAMENT" ver="1">显示 材料</t>
+    <t id="M_HIDE_FILAMENT" ver="1">隐藏 材料</t>
     <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">材料 允许可视化</t>
     <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">材料 禁止可视化</t>
     <t id="L_LOAD_FILE" ver="1">加载文件</t>
@@ -490,9 +490,9 @@
     <t id="L_UPLOADING_TIME" ver="4">SD卡数据载入耗时: $1</t>
     <t id="L_FILAMENT_POS" ver="4">材料: $1</t>
     <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">禁止轨迹可视化</t>
-    <t id="M_HIDE_TRAVEL" ver="4">轨迹</t>
+    <t id="M_HIDE_TRAVEL" ver="4">隐藏轨迹</t>
     <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">允许轨迹可视化</t>
-    <t id="M_SHOW_TRAVEL" ver="4">轨迹</t>
+    <t id="M_SHOW_TRAVEL" ver="4">显示轨迹</t>
     <t id="L_TRAVEL_MOVES:" ver="4">移动轨迹:</t>
     <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">禁止移动轨迹可视化</t>
     <t id="L_NUMBER_OF_EXTRUDER:" ver="5">挤出头数目:</t>
@@ -652,9 +652,8 @@
 <t id="OBJECTS_ARE_IN_FOOT" ver="10">使用英尺单位</t>
 <t id="OBJECTS_ARE_IN_METER" ver="10">使用米单位</t>
 <t id="B_RESET" ver="10">复位</t>
-<t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition 是单独外部程序, 可以独立运行. 如果需要更多信息, 请访问以下网址: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r 是单独外部程序, 可以独立运行. 如果需要更多信息, 请访问以下网址: http://slic3r.org</t>
-  <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge 是单独外部程序, 可以独立运行. 如果需要更多信息, 请访问以下网址: http://fabmetheus.crsndoo.com/</t>
+<t id="L_SLIC3R_INFO2" ver="10">Slic3r 是单独外部程序, 可以独立运行. 如果需要更多信息, 请访问以下网址: http://www.slic3r.org</t>
+<t id="L_SKEINFORGE_INFO" ver="10">Skeinforge 是单独外部程序, 可以独立运行. 如果需要更多信息, 请访问以下网址: http://fabmetheus.crsndoo.com/</t>
 <t id="L_PRINT_SETTINGS:" ver="10">打印设定:</t>
 <t id="L_PRINTER_SETTINGS:" ver="10">打印机设定:</t>
 <t id="L_OVERRIDE_SLIC3R_SETTINGS" ver="10">覆盖 slic3r设定</t>
@@ -709,7 +708,7 @@
   <t id="L_ENABLE_ANTI_ALIAS" ver="10">如果可能允许反锯齿 (会拖慢显示速度, 需要重启软件)</t>
   <t id="L_MODEL_ERRORS_EDGE:" ver="10">模型错误 (边):</t>
   <t id="L_CUT_FACES:" ver="10">切割面:</t>
-  <t id="L_NOT_MANIFOLD_INFO" ver="11">物体不是流形. 意味着不是水密实体. 通常会导致切片问题. 强烈建议先修复模型文件. 以下免费网站可以在线修复模型: https://tools3d.azurewebsites.net </t>
+  <t id="L_NOT_MANIFOLD_INFO" ver="11">物体不是流形. 意味着不是水密实体. 通常会导致切片问题. 强烈建议先修复模型文件. 以下免费网站可以在线修复模型: https://netfabb.azurewebsites.net </t>
   <t id="L_EXPERT_MODE" ver="11">专家模式</t>
 <t id="L_CURAENGINE_EXECUTABLE" ver="11">CuraEngine 可执行文件</t>
 <t id="L_CURAENGINE_INFO" ver="11">CuraEngine 是独立运行的外部程序, 由David Braam开发. 需要更多信息请访问 https://www.ultimaker.com</t>
@@ -1368,5 +1367,4 @@
   </t>
   <t id="L_SHOW_TRAVEL_MOVES" ver="11">显示非打印移动</t>
   <t id="L_PRINTING_STATISTICS" ver="11">打印统计</t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">注意：你有一个Repetier-Server安装。我们强烈建议使用Repetier-Server连接器来代替。点击“帮助”获得更多信息。</t>
 </translation>

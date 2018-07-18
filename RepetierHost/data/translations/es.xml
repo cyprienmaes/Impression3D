@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<translation revision="9" language="Español" languageInEnglish="Spanish" author="Mecano; Veimox; +Palencia+Negras+Oreja">
-    <t id="M_FILE" ver="1">Archivo</t>
+<translation revision="9" language="Español" languageInEnglish="Spanish" author="Mecano; Veimox">
+<t id="M_FILE" ver="1">Archivo</t>
 <t id="M_CONFIG" ver="1">Configuración</t>
 <t id="M_SLICER" ver="1">Slicer</t>
 <t id="M_TEMPERATURE" ver="1">Temperatura</t>
@@ -76,9 +76,9 @@
 <t id="M_PAUSE_JOB" ver="1">Pausar</t>
 <t id="M_KILL_JOB" ver="1">Anular</t>
 <t id="M_SD_CARD" ver="1">Tarjeta SD</t>
-<t id="M_TOGGLE_LOG" ver="1">Registro</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filamento</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filamento</t>
+<t id="M_TOGGLE_LOG" ver="1">Ver Registro</t>
+<t id="M_SHOW_FILAMENT" ver="1">Mostrando Filamento</t>
+<t id="M_HIDE_FILAMENT" ver="1">Ocultando Filamento</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Visualización de Filamento Deshabilitada</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Visualización de Filamento habilitada</t>
 <t id="L_LOAD_FILE" ver="1">Cargar archivo</t>
@@ -493,9 +493,9 @@ Los cambios en el registro estarán activos despues del siguiente reinicio.</t>
 <t id="L_UPLOADING_TIME" ver="4">Uploading time: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Visualización de Desplazamiento Deshabilitada</t>
-<t id="M_HIDE_TRAVEL" ver="4">Desplazamientos</t>
+<t id="M_HIDE_TRAVEL" ver="4">Ocultando Desplazamientos</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Visualización de Desplazamiento Habilitada</t>
-<t id="M_SHOW_TRAVEL" ver="4">Desplazamientos</t>
+<t id="M_SHOW_TRAVEL" ver="4">Mostrando desplazamiento</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Movimiento de desplazamiento:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Desactivar Visualización de Desplazamientos</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Numero de Extrusores:</t>
@@ -609,78 +609,6 @@ Los cambios en el registro estarán activos despues del siguiente reinicio.</t>
 <t id="L_ANA_CORRECTED_NORMAL_ORIENTATIONS" ver="9">Orientación de Normales corregidas:</t>
 <t id="L_OBJECT_IS_MANIFOLD" ver="9">El objeto no esta cerrado.</t>
 <t id="L_OBJECT_IS_NON_MANIFOLD" ver="9">El objeto no esta completamente cerrado. El slicing puede fallar. Por favor, repara primero el objeto.</t>
-<t id="L_SERVER_CONNECTOR_HINT" ver="17">Aviso: Usted tiene una instalación Repetier-Server. Le recomendamos que utilice el conector Repetier-Server en su lugar. Haga clic en "Ayuda" para obtener más información.</t>
-  <t id="TAB_PRINT" ver="10">Imprimir</t>
-  <t id="B_CURA_FAST" ver="10">Rápida</t>
-  <t id="B_CURA_SLOW" ver="10">Lenta</t>
-  <t id="L_PRINT:" ver="10">Impresión:</t>
-  <t id="L_EXTRUSION" ver="10">Extrusión</t>
-  <t id="L_COOLING" ver="10">Refrigeración</t>
-  <t id="L_PREFERENCES" ver="10">Preferencias</t>
-  <t id="UNITS_OF_IMPORTED_OBJECTS" ver="10">Unidades de los Objetos Importados</t>
-  <t id="OBJECTS_ARE_IN_MILLIMETER" ver="10">Objetos están en milímetros</t>
-  <t id="OBJECTS_ARE_IN_INCHES" ver="10">Objetos están en pulgadas</t>
-  <t id="OBJECTS_ARE_IN_FOOT" ver="10">Objetos están en pies</t>
-  <t id="OBJECTS_ARE_IN_METER" ver="10">Objetos están en metros</t>
-  <t id="L_GENERAL_EXTRUDER_SETTINGS" ver="10">Configuración General del Extrusor</t>
-  <t id="L_MULTI_EXTRUDER_SETTINGS" ver="10">Configuración del Multi Extrusor</t>
-  <t id="L_DISTANCE_XY:" ver="10">Distancia XY:</t>
-  <t id="L_DISTANCE_Z:" ver="10">Distancia Z:</t>
-  <t id="L_SOLID_TOP_INFILL" ver="10">Relleno Superior Sólido</t>
-  <t id="L_SOLID_BOTTOM_INFILL" ver="10">Relleno Inferior Sólido</t>
-  <t id="L_STRUCTURES" ver="10">Estructuras</t>
-  <t id="L_SPEED_AND_QUALITY" ver="10">Velocidad y Calidad</t>
-  <t id="L_IMPORT" ver="10">Importar</t>
-  <t id="L_EXPORT" ver="10">Exportar</t>
-  <t id="B_SAVE_AS" ver="10">Guardar como ...</t>
-  <t id="L_PRINT" ver="10">Imprimir</t>
-  <t id="L_SAVE_TO_FILE" ver="10">Guardar en Archivo</t>
-  <t id="L_EDIT_GCODE" ver="10">Editar G-Code</t>
-  <t id="L_PRINTING_STATISTICS" ver="10">Estadísticas de Impresión</t>
-  <t id="L_ESTIMATED_PRINTING_TIME:" ver="10">Tiempo Estimado Impresión:</t>
-  <t id="L_LAYER_COUNT:" ver="10">Número de Capas:</t>
-  <t id="L_FILAMENT_NEEDED:" ver="10">Filamento Necesario:</t>
-  <t id="L_INNER_PERIMETER:" ver="10">Perímetro Interior</t>
-  <t id="L_OUTER_PERIMETER:" ver="10">Perímetro Exterior</t>
-  <t id="L_OUTER_PERIMETER_SPEED:" ver="10">Velocidad del Perímetro Exterior:</t>
-  <t id="L_INFILL_SPEED:" ver="10">Velocidad de Relleno:</t>
-  <t id="L_PRINT_SPEED:" ver="10">Velocidad de Impresión:</t>
-  <t id="L_INFILL_DENSITY" ver="10">Densidad de Relleno</t>
-  <t id="L_INFILL_ANGLE" ver="10">Ángulo de Relleno</t>
-  <t id="L_INFILL_PATTERN:" ver="10">Patrón de Relleno:</t>
-  <t id="L_SOLID_INFILL_PATTERN:" ver="10">Patrón de Relleno Sólido:</t>
-  <t id="L_AUTOMATIC" ver="10">Automático</t>
-  <t id="L_LINES" ver="10">Líneas</t>
-  <t id="L_CONCENTRIC_LINES" ver="10">Líneas Concéntricas</t>
-  <t id="L_ENABLE_COOLING" ver="10">Permitir Refrigeración</t>
-  <t id="L_INFILL:" ver="10">Relleno:</t>
-  <t id="L_INFILL" ver="10">Relleno</t>
-  <t id="L_FILL_AMOUNT:" ver="10">Cantidad de Relleno:</t>
-  <t id="L_MANAGER" ver="10">Administrar</t>
-  <t id="TAB_SERVER" ver="10">Servidor</t>
-  <t id="M_SERVER" ver="10">Servidor</t>
-  <t id="L_EASY_MODE" ver="10">Modo Fácil</t>
-  <t id="L_SPEED:" ver="10">Velocidad:</t>
-  <t id="L_SPEED" ver="10">Velocidad</t>
-  <t id="L_FAST" ver="10">Rápido</t>
-  <t id="L_SLOW" ver="10">Lento</t>
-  <t id="L_TOUCHING_BED" ver="10">Cama de Contacto</t>
-  <t id="L_EVERYWHERE" ver="10">En Todas Partes</t>
-  <t id="L_SUPPORT" ver="10">Apoyo</t>
-  <t id="L_SUPPORT_PATTERN:" ver="10">Patrón de Apoyo:</t>
-  <t id="L_SUPPORT_TYPE:" ver="10">Tipo de Apoyo:</t>
-  <t id="L_NONE" ver="10">Ninguno</t>
-  <t id="L_QUALITY:" ver="10">Calidad:</t>
-  <t id="L_QUALITY" ver="10">Calidad</t>
-  <t id="L_DEFAULT_QUALITY:" ver="10">Calidad por defecto:</t>
-  <t id="L_SELECTED_QUALITY_SETTING" ver="10">Ajustes de Calidad Seleccionados</t>
-  <t id="L_FIRST_LAYER_HEIGHT:" ver="10">Altura Primera Capa:</t>
-  <t id="L_FIRST_LAYER_EXTRUSION_WIDTH:" ver="10">Ancho Extrusión Primera Capa:</t>
-  <t id="L_TOP/BOTTOM_THICKNESS:" ver="10">Espesor Superior/Inferior:</t>
-  <t id="L_ADHESION_TYPE:" ver="10">Tipo de Adherencia:</t>
-  <t id="L_SLICER_CONFIGURATIONS" ver="10">Configuraciones del Laminador</t>
-  <t id="L_PRINT_CONFIGURATION:" ver="10">Configuración Impresión:</t>
-  <t id="L_NAME:" ver="10">Nombre:</t>
-  <t id="L_NAME" ver="10">Nombre</t>
+<t id="L_" ver="9"></t>
 </translation>
 

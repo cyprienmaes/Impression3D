@@ -76,9 +76,9 @@
 <t id="M_PAUSE_JOB" ver="1">Przerwij</t>
 <t id="M_KILL_JOB" ver="1">Zabij</t>
 <t id="M_SD_CARD" ver="1">Karta SD</t>
-<t id="M_TOGGLE_LOG" ver="1">Log</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filament</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filament</t>
+<t id="M_TOGGLE_LOG" ver="1">Przełącz log</t>
+<t id="M_SHOW_FILAMENT" ver="1">Pokaż filament</t>
+<t id="M_HIDE_FILAMENT" ver="1">Ukryj filament</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Wizualizacja filamentu wyłączona</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Wizualizacja filamentu włączona</t>
 <t id="L_LOAD_FILE" ver="1">Otwórz plik</t>
@@ -488,9 +488,9 @@ Zapisać zmiany do EEPROM?</t>
 <t id="L_UPLOADING_TIME" ver="4">Czas wgrywania: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Wizualizacja ruchów wyłączona</t>
-<t id="M_HIDE_TRAVEL" ver="4">Ruchy</t>
+<t id="M_HIDE_TRAVEL" ver="4">Ukryj ruchy</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Wizualizacja ruchów włączona</t>
-<t id="M_SHOW_TRAVEL" ver="4">Ruchy</t>
+<t id="M_SHOW_TRAVEL" ver="4">Pokaż ruchy</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Ruchy głowicy:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Wyłącz wizualizację ruchów głowicy</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Ilość ekstruderów:</t>
@@ -650,9 +650,8 @@ Przeładować obiekty?]]></t>
 <t id="OBJECTS_ARE_IN_FOOT" ver="10">Obiekty są w stopach</t>
 <t id="OBJECTS_ARE_IN_METER" ver="10">Obiekty są w metrach</t>
 <t id="B_RESET" ver="10">Reset</t>
-<t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition to zewnętrzy, oddzielny program który może być uruchamiany samodzielnie. Po więcej informacji zajrzyj na stronę: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r to zewnętrzy, oddzielny program który może być uruchamiany samodzielnie. Po więcej informacji zajrzyj na stronę: http://slic3r.org</t>
-  <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge to zewnętrzny, oddzielny program który może byc uruchamiany samodzielnie. Po więcej informacji zajrzyj na stronę: http://fabmetheus.crsndoo.com/</t>
+<t id="L_SLIC3R_INFO2" ver="10">Slic3r to zewnętrzy, oddzielny program który może być uruchamiany samodzielnie. Po więcej informacji zajrzyj na stronę: http://www.slic3r.org</t>
+<t id="L_SKEINFORGE_INFO" ver="10">Skeinforge to zewnętrzny, oddzielny program który może byc uruchamiany samodzielnie. Po więcej informacji zajrzyj na stronę: http://fabmetheus.crsndoo.com/</t>
 <t id="L_PRINT_SETTINGS:" ver="10">Ustawienia wydruku:</t>
 <t id="L_PRINTER_SETTINGS:" ver="10">Ustawienia drukarki:</t>
 <t id="L_OVERRIDE_SLIC3R_SETTINGS" ver="10">Nadpisz ustawienia programu Slic3r</t>
@@ -707,7 +706,7 @@ Przeładować obiekty?]]></t>
   <t id="L_ENABLE_ANTI_ALIAS" ver="10">Włącz antyaliasing jeśli to możliwe (spowalnia wizualizację, wymagany restart)</t>
   <t id="L_MODEL_ERRORS_EDGE:" ver="10">Błędy w modelu (krawędzie):</t>
   <t id="L_CUT_FACES:" ver="10">Wytnij płaszczyzny:</t>
-  <t id="L_NOT_MANIFOLD_INFO">Obiekt nie jest prawidłowy (manifold). Między innymi oznacza to, że nie jest wodoodporny. Prawie na pewno spowoduje to problemy podczas cięcia skutkujące nieprawidłowym rezultatem. Zalecane jest wcześniejsze naprawienie pliku z modelem. Spróbuj skorzystać z darmowej usługi naprawiania na stronie https://tools3d.azurewebsites.net </t>
+  <t id="L_NOT_MANIFOLD_INFO">Obiekt nie jest prawidłowy (manifold). Między innymi oznacza to, że nie jest wodoodporny. Prawie na pewno spowoduje to problemy podczas cięcia skutkujące nieprawidłowym rezultatem. Zalecane jest wcześniejsze naprawienie pliku z modelem. Spróbuj skorzystać z darmowej usługi naprawiania na stronie https://netfabb.azurewebsites.net </t>
 
 
 <t id="L_PRINT_CONFIGURATION:" ver="11">Wybierz profil:</t>
@@ -860,8 +859,7 @@ charakterystyczne "nitki" z filamentu.
 jałowym. Włączenie tej funkcji minimalizuje powstawanie "nitek".
   </t>
 <t id="L_RETRACTION_SPEED:" ver="11">Prędkość retrakcji:</t>
-
-<t id="L_RETRACTION_DISTANCE:" ver="11">Długość retrakcji:</t>
+<t id="L_RETRACTION_DISTANCE:" ver="11">Długość retrakcji:</t>
 
 
 <t id="L_MIN_TRAVEL_BEFORE_RETRACT:" ver="11">Minimalna odległość bez retrakcji:</t>
@@ -916,6 +914,8 @@ You can also add a line only if an extruder or bed is used. Therefore add one of
 
 Use "Create Default" to get a good starting script that you can tweak to your needs.
   </t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">Wskazówka: Masz instalację Repetier-Server. Gorąco polecam za pomocą złącza Repetier-Server zamiast. Kliknij "Pomoc" więcej informacji.</t>
+
+
+
 </translation>
 

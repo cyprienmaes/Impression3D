@@ -76,9 +76,9 @@
 <t id="M_PAUSE_JOB" ver="1">Inpresioa gelditu</t>
 <t id="M_KILL_JOB" ver="1">Inpresioa ezeztatu</t>
 <t id="M_SD_CARD" ver="1">SD txartela</t>
-<t id="M_TOGGLE_LOG" ver="1">Erregistroa</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filamentua</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filamentua</t>
+<t id="M_TOGGLE_LOG" ver="1">Erregistroa ikusi</t>
+<t id="M_SHOW_FILAMENT" ver="1">Filamentua erakutsi</t>
+<t id="M_HIDE_FILAMENT" ver="1">Filamentua izkutatu</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Filamentuaren bistaratzea ezeztu</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Filamentuaren bistaratzea baieztu</t>
 <t id="L_LOAD_FILE" ver="1">Artxiboa kargatu</t>
@@ -489,9 +489,9 @@ Aldaketak EEPROM-an idatzi?</t>
 <t id="L_UPLOADING_TIME" ver="4">Kargatzearen denobora: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Filamentua: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Desplazamendu bistaratzea deskonektatuta</t>
-<t id="M_HIDE_TRAVEL" ver="4">Desplazamendua</t>
+<t id="M_HIDE_TRAVEL" ver="4">Desplazamendua gorde</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Desplazamendu bistaratzea konektatuta</t>
-<t id="M_SHOW_TRAVEL" ver="4">Desplazamedua</t>
+<t id="M_SHOW_TRAVEL" ver="4">Desplazamedua erakusti</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Desplazamendu mugimenduak:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Desplazamendu mugimendu bistaratzea deskonektatu</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Estrusore zenbakia:</t>
@@ -513,6 +513,5 @@ Aldaketak EEPROM-an idatzi?</t>
 <t id="L_CARTESIAN_PRINTER_DUMP" ver="6">Inprimagailu klasikoa (con area de volcado)</t>
 <t id="L_ROSTOCK_CIRCLE" ver="6">Rostock inprimagailua (inprimaketa zirkular formarekin)</t>
 <t id="L_CORRECT_NORMALS" ver="7">Normal zuzendu (itxura hobeagoa du, memoria gehiago behar du)</t>
-<t id="L_SERVER_CONNECTOR_HINT" ver="17">Oharra: Repetier-Server instalazio bat egin behar duzu. Gomendatzen dugu ordez Repetier-Server connector. Klik egin "Laguntza" informazio gehiagorako.</t>
 </translation>
 

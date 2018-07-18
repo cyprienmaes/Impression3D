@@ -3,16 +3,10 @@
 #include <unistd.h>
 #include <fcntl.h> 
 #include <errno.h> 
+#include <termios.h> 
 #include <time.h>  
 #include <string.h>
 #include <sys/ioctl.h>
-//#undef TCGETS2
-#ifdef TCGETS2
-#include <asm-generic/termbits.h>
-#else
-#warning TERMIOS
-#include <termios.h> 
-#endif
 #include <linux/serial.h>
 #include <iostream>
 #include <stdlib.h>
@@ -35,44 +29,6 @@ int open_port(const char *port)
 	return(fd);
 } //open_port
 
-#ifdef TCGETS2
-int set_baudrate(int handle, int baud) {
-  struct termios2 ios;
-      
-  fcntl(handle, F_SETFL, 0);
-  if(ioctl(handle, TCGETS2, &ios)) {
-    cerr << "error: TCGETS2 failed" << endl;
-    exit(-2);
-  }
-  ios.c_ispeed = baud;
-  ios.c_ospeed = baud;
-  ios.c_cflag &= ~CBAUD;
-  ios.c_cflag |= BOTHER;
-  //cfmakeraw(&ios);
-  ios.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL | IXON);
-  ios.c_oflag &= ~OPOST;
-  ios.c_lflag &= ~(ECHO | ECHONL | ICANON | ISIG | IEXTEN);
-  ios.c_cflag &= ~(CSIZE | PARENB);
-  ios.c_cflag |= CS8;
-  //\cfmakeraw
-  ios.c_cflag |= (CLOCAL | CREAD);
-  ios.c_cflag &= ~CRTSCTS;
-  if(ioctl(handle, TCSETS2, &ios) != 0) {
-    cerr << "error: TCSETS2 failed" << endl;
-    exit(-2);
-  }
-  if(ioctl(handle, TCGETS2, &ios)) {
-    cerr << "error: reget TCGETS2 failed" << endl;
-    exit(-2);
-  }
-  cerr << "actual baud: " << ios.c_ispeed << endl;
-  if(abs((int)(baud - ios.c_ispeed)) * 100 / baud >= 5) {
-    cerr << "error: couldn't set desired baud rate " << baud << " got " << ios.c_ispeed << endl;
-    exit(-2);
-  }
-}
-#else
-#warning TERMIOS
 static int rate_to_constant(int baudrate) {
 #define B(x) case x: return B##x
 	switch(baudrate) {
@@ -130,7 +86,7 @@ int set_baudrate(int handle, int baud) {
 		exit(-2);
 	}
 }
-#endif
+
 
 int main(int argc, const char* argv[])
 { 

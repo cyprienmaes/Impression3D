@@ -10,11 +10,10 @@ else
   echo "Using 64 bit CuraEngine"
 	cp plugins/CuraEngine/CuraEngine64 plugins/CuraEngine/CuraEngine
 fi
-chmod a+x plugins/CuraEngine/CuraEngine
 
 if [ -f /etc/debian_version ]; then
 	# Debian based system
-	sudo apt-get install build-essential mono-complete libmono-winforms2.0-cil monodevelop libmono-system-serviceprocess4.0-cil mono-reference-assemblies-4.0	
+	sudo apt-get install build-essential mono-complete libmono-winforms2.0-cil monodevelop
 fi
 if [ -r /etc/rc.d/init.d/functions ]; then
 	# RedHad based system
@@ -56,11 +55,10 @@ echo "Configuration finished."
 #echo "For debian and clones use:"
 #echo "usermod -a -G dialout yourUserName"
 echo "IMPORTANT: In addition to the bundled CuraEngine, the host also"
-echo "supports Slic3r, Slic3r Prusa Edition and Skeinforge. These slicers are not bundled, so"
+echo "supports Slic3r and Skeinforge. These slicers are not bundled, so"
 echo "need to install them according to their docs and then set the path"
 echo "to them in Repetier-Host."
 echo "For Slic3r simply unpack the tar you get on http://slic3r.org in this directory."
-echo "For Slic3r Prusa Edition check https://github.com/prusa3d/Slic3r/releases"
 echo "The host will then register and add it automatically on next restart."
 echo ""
 echo "IMPORTANT: You need a recent mono version since the host uses .NET 4.0"
@@ -68,3 +66,10 @@ echo "If you see the following error message, your mono is too old!"
 echo ">>> System.Windows.Forms.SplitContainer doesn't implement interface System.ComponentModel.ISupportInitialize <<<"
 bash ${DIR}/createDesktopIcon.sh
 
+cp -r eMotionTech/Slic3r ~/.Slic3r
+#sudo cp eMotionTech/49-teensy.rules /etc/udev/rules.d/
+mkdir -p ~/.mono/registry/CurrentUser/software/
+cp -r eMotionTech/repetier ~/.mono/registry/CurrentUser/software/
+git clone git://github.com/alexrj/Slic3r 
+chmod a+x installDependenciesDebian
+./installDependenciesDebian

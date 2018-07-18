@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<translation revision="15" language="Italiano" languageInEnglish="Italian" author="Sarah Camerino;info.dtxrobotics@gmail.com;Michele Olimpi">
+<translation revision="10" language="Italiano" languageInEnglish="Italian" author="S. Camerino;info.dtxrobotics@gmail.com;Michele Olimpi">
 <t id="M_FILE" ver="1">File</t>
 <t id="M_CONFIG" ver="1">Configurazione</t>
 <t id="M_SLICER" ver="1">Slicer</t>
@@ -10,7 +10,7 @@
 <t id="M_SHOW_WORKDIRECTORY" ver="1">Mostra cartella di lavoro</t>
 <t id="M_LANGUAGE" ver="1">Lingua</t>
 <t id="M_PRINTER_SETTINGS" ver="1">Impostazioni stampante</t>
-<t id="M_EEPROM_SETTINGS" ver="1">Configurazione firmware EEPROM</t>
+<t id="M_EEPROM_SETTINGS" ver="1">Configurazione Firmware EEPROM</t>
 <t id="M_3D_VIEWER_CONFIGURATION" ver="1">Configurazione vista 3D</t>
 <t id="M_REPETIER_SETTINGS" ver="1">Repetier impostazioni generali</t>
 <t id="M_TESTCASE_SETTINGS" ver="1">Test parametri slicing</t>
@@ -76,22 +76,22 @@
 <t id="M_PAUSE_JOB" ver="1">Lavoro in pausa</t>
 <t id="M_KILL_JOB" ver="1">Ferma lavoro</t>
 <t id="M_SD_CARD" ver="1">SD Card</t>
-<t id="M_TOGGLE_LOG" ver="1">Log</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filamento</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filamento</t>
-<t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Visualizzazione filamento disattiva</t>
-<t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Visualizzazione filamento attiva</t>
+<t id="M_TOGGLE_LOG" ver="1">Mostra/nascondi Log</t>
+<t id="M_SHOW_FILAMENT" ver="1">Mostra filamento</t>
+<t id="M_HIDE_FILAMENT" ver="1">Nascondi filamento</t>
+<t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Visualizzazione filamento disabilitato</t>
+<t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Visualizzazione filamento abilitato</t>
 <t id="L_LOAD_FILE" ver="1">Carica file</t>
 <t id="L_IMPORT_G_CODE" ver="1">Importa G-Code</t>
 <t id="L_SAVE_G_CODE" ver="1">Salva G-Code</t>
 <t id="L_ERROR" ver="1">Errore</t>
 <t id="L_PAUSE_MSG" ver="1">Premi OK per continuare.
-Puoi aggiungere pause al tuo codice con
+Puoi mettere pausa al tuo codice con
 @pause o del testo come questo.</t>
 <t id="L_DISCONNECTED" ver="1">Disconnessa</t>
 <t id="L_UPDATING..." ver="1">Aggiornamento ...</t>
 <t id="L_SLICE_WITH" ver="1">Slice con $1</t>
-<t id="L_EMERGENCY_STOP_MSG" ver="1">Arresto di emergenza. Potrebbe essere necessario resettare la stampante per il riavvio!</t>
+<t id="L_EMERGENCY_STOP_MSG" ver="1">Arresto di emergenza.Potrebbe essere necessario resettare la stampante per il riavvio!</t>
 <t id="L_TRANSLATION:" ver="1">Traslazione</t>
 <t id="L_SCALE:" ver="1">Scala</t>
 <t id="L_ROTATE:" ver="1">Ruota</t>
@@ -123,21 +123,21 @@ Puoi aggiungere pause al tuo codice con
 <t id="L_OUTPUT_PERCENT" ver="1">Output $1%</t>
 <t id="B_POWER" ver="1">Power</t>
 <t id="B_HEAT_EXTRUDER" ver="1">Temperatura estrusore</t>
-<t id="B_HEAT_PRINTBED" ver="1">Temperatura piano di stampa</t>
+<t id="B_HEAT_PRINTBED" ver="1">Temperatura piatto di stampa</t>
 <t id="B_FAN" ver="1">Ventola</t>
 <t id="B_DEBUG_ERRORS" ver="1">Errori</t>
 <t id="B_DEBUG_ECHO" ver="1">Ripeti</t>
 <t id="B_DRY_RUN" ver="1">Stampa a Vuoto</t>
 <t id="B_DEBUG_INFO" ver="1">Info</t>
 <t id="L_EXTRUDER" ver="1">Estrusore</t>
-<t id="L_PRINTBED" ver="1">Piano di stampa</t>
+<t id="L_PRINTBED" ver="1">Piatto di stampa</t>
 <t id="L_SPEED_MULTIPLY" ver="1">Moltiplicatore velocità</t>
 <t id="L_EXTRUDE_MM" ver="1">Estrudi [mm]</t>
 <t id="L_EXTRUDER_SPEED_MM_MIN" ver="1">Velocità [mm/min]</t>
 <t id="L_RETRACT_MM" ver="1">Ritrai [mm]</t>
 <t id="L_TEMP" ver="1">Temp.</t>
 <t id="L_CONNECTED" ver="1">Connessa</t>
-<t id="L_HEATING_BED" ver="1">Riscaldamento piano</t>
+<t id="L_HEATING_BED" ver="1">Riscaldamento piatto</t>
 <t id="L_HEATING_EXTRUDER" ver="1">Riscaldamento estrusore</t>
 <t id="L_PRINT_JOB_KILLED" ver="1">Ferma stampa</t>
 <t id="L_PRINT_JOB_PAUSED" ver="1">Pausa stampa</t>
@@ -198,8 +198,8 @@ Puoi aggiungere pause al tuo codice con
 <t id="L_REALLY_DELETE_PRINTER" ver="1">Vuoi davvero cancellare tutte le impostazioni per $1?</t>
 <t id="L_SECURITY_QUESTION" ver="1">Domanda di sicurezza</t>
 <t id="L_ADD_PRINTING_TIME" ver="1">Aggiungi tempo al termine</t>
-<t id="L_BAUD_RATE" ver="1">Baud Rate:</t>
-<t id="L_CACHE_SIZE_HINT" ver="1">Da Arduino Uno in poi, la dimensione della cache è stata ridotta da 127 a 63 bytes!</t>
+<t id="L_BAUD_RATE" ver="1">Baud rate:</t>
+<t id="L_CACHE_SIZE_HINT" ver="1">Da Arduino Uno in poi la dimensione della cache è stata ridotta da 127 a 63 bytes!</t>
 <t id="L_CHECK_EVERY_X" ver="1">Controlla ogni $1 secondi.</t>
 <t id="L_CONNECTION_INFO" ver="1">Le impostazioni della stampante corrispondono sempre alla stampante selezionata in alto. Queste 
 sono memorizzate con ogni OK o applica. Per creare una nuova stampante, basta inserire un nuovo
@@ -225,7 +225,7 @@ prodotto dallo slicer. Utilizzare #in e #out per inserire i nomi dei file di inp
 <t id="L_STOPBITS" ver="1">Bit di stop:</t>
 <t id="L_TRANSFER_PROTOCOL" ver="1">Protocollo trasferimento:</t>
 <t id="L_TRAVEL_FEED_RATE" ver="1">Velocità di spostamento:</t>
-<t id="L_ZFEED_RATE" ver="1">Velocità di avanzamento Asse Z:</t>
+<t id="L_ZFEED_RATE" ver="1">Velocità di avanzamneto Asse Z:</t>
 <t id="L_DISABLE_EXTRUDER_AFTER_JOB" ver="1">Disattiva estrusore dopo la stampa</t>
 <t id="L_DISABLE_MOTORS" ver="1">Disattiva motori dopo la stampa</t>
 <t id="L_DISABLE_HEATED_BED_AFTER_JOB" ver="1">Disattiva piano riscaldato dopo la stampa</t>
@@ -236,7 +236,7 @@ prodotto dallo slicer. Utilizzare #in e #out per inserire i nomi dei file di inp
 <t id="L_HOME_Z_MAX" ver="1">Home è alla Z Max</t>
 <t id="L_PING_PONG_MODE" ver="1">Usa comunicazione Ping-Pong (invia solo dopo OK)</t>
 <t id="L_RUN_FILTER_EVERY_SLICE" ver="1">Avvia filtro dopo ogni slice</t>
-<t id="L_CHECK_EXTRUDER_BED_TEMPERATURE" ver="1">Controlla estrusore e temperatura piano di stampa</t>
+<t id="L_CHECK_EXTRUDER_BED_TEMPERATURE" ver="1">Controlla estrusore e temperatura piatto di stampa</t>
 <t id="L_REMOVE_M105_REQUEST_LOG" ver="1">Rimuovi richiesta M105 dal Log</t>
 <t id="B_CANCEL" ver="1">Annulla</t>
 <t id="B_APPLY" ver="1">Applica</t>
@@ -244,7 +244,7 @@ prodotto dallo slicer. Utilizzare #in e #out per inserire i nomi dei file di inp
 <t id="B_DELETE_PRINTER_SETTINGS" ver="1">Cancella impostazioni stampante</t>
 <t id="TAB_CONNECTION" ver="1">Connessione</t>
 <t id="TAB_PRINTER" ver="1">Stampante</t>
-<t id="TAB_PRINTER_SHAPE" ver="1">Opzioni piano di stampa</t>
+<t id="TAB_PRINTER_SHAPE" ver="1">Opzioni piatto di stampa</t>
 <t id="TAB_ADVANCED" ver="1">Avanzate</t>
 <t id="W_PRINTER_SETTINGS" ver="1">Impostazioni stampante</t>
 <t id="L_POST_SLICE_FILTER" ver="1">Filtro Post-Slice</t>
@@ -301,7 +301,7 @@ Possibili spiegazioni:
 ci sarà un file repetier.log dopo la chiusura del programma. Avviando il programma si cancellerà
 il file di log vecchio! Il file di log contiene tutte le comunicazioni con la stampante, anche se disabilitato nel registro. 
 Le modifiche alla registrazione saranno attive al prossimo riavvio.</t>
-<t id="L_LOG_SESSION" ver="1">Log di Sessione</t>
+<t id="L_LOG_SESSION" ver="1">Sessione Log</t>
 <t id="REDUCE_TOOLBAR_SIZE" ver="1">Riduci dimensioni barra strumenti</t>
 <t id="L_DISABLE_QUALITY_REDUCTION" ver="1">Disabilita riduzione qualità</t>
 <t id="L_EXISTING_WORKDIR_REQUIRED" ver="1">Richiesta cartella di lavoro esistente!</t>
@@ -320,14 +320,14 @@ Le modifiche alla registrazione saranno attive al prossimo riavvio.</t>
 <t id="L_EDGES" ver="1">Bordi:</t>
 <t id="L_EXTRUDER_X:" ver="1">Estrusore $1:</t>
 <t id="L_FACES" ver="1">Facce:</t>
-<t id="L_FILAMENT_VISUALIZATION_INFO" ver="1">La modellazione del filamento viene calcolata mediante l'altezza layer e width over thickness, oppure in base
+<t id="L_FILAMENT_VISUALIZATION_INFO" ver="1">La modellazione del filamento viene calcolata mediante layer height e width over thickness oppure in base
 al diametro del filamento, width over thickness e valori E nel G-Code.
-La seconda versione offre risultati migliori, se l'altezza layer cambia, ciò può accadere nelle versioni più recenti Skeinforge.</t>
+La seconda versione offre risultati migliori, se il layer height cambia, ciò può accadere nelle versioni più recenti Skeinforge.</t>
 <t id="L_FILAMENT_VISUALIZATION" ver="1">Visualizzazione filamento:</t>
 <t id="L_HOT_FILAMENT" ver="1">Filamento fuso:</t>
 <t id="L_HOT_FILAMENT_LENGTH" ver="1">Lunghezza filamento fuso:</t>
 <t id="L_LIGHT_X" ver="1">Luce $1</t>
-<t id="L_OBJECTS_OUTSIDE_PRINTBED" ver="1">Oggetti fuori piano di stampa:</t>
+<t id="L_OBJECTS_OUTSIDE_PRINTBED" ver="1">Oggetti fuori dal piano stampa:</t>
 <t id="L_PRINTER_BASE" ver="1">Base stampante:</t>
 <t id="L_SELECTED_FACES" ver="1">Facce selezionate:</t>
 <t id="L_SELECTED_FILAMENT" ver="1">Filamento selezionato:</t>
@@ -404,7 +404,7 @@ La seconda versione offre risultati migliori, se l'altezza layer cambia, ciò pu
 <t id="L_FIRMWARE_NO_DELETE" ver="1">Il firmware non implementa la cancellazione file o ha una implementazione sconosciuta.</t>
 <t id="L_PRINT_ABORTED" ver="1">Stampa interrotta</t>
 <t id="L_PRINT_PAUSED" ver="1">Stampa in pausa</t>
-<t id="L_REMOVE_SD_CARD" ver="1">E' possibile rimuovere la SD card.</t>
+<t id="L_REMOVE_SD_CARD" ver="1">Puoi rimuovere la SD card.</t>
 <t id="L_INFORMATION" ver="1">Informazione</t>
 <t id="L_REALLY_DELETE_X" ver="1">Conferma eliminazione $1</t>
 <t id="SOUND_CONFIGURATION" ver="1">Configurazione suoni</t>
@@ -414,14 +414,14 @@ La seconda versione offre risultati migliori, se l'altezza layer cambia, ciò pu
 <t id="L_PRINT_PAUSED_SOUND" ver="1">Suono per stampa in pausa</t>
 <t id="L_SOUND_COMMAND_SOUND" ver="1">Suono per comando @sound</t>
 <t id="L_FILE:X" ver="1">File:$1</t>
-<t id="L_SELECT_WAV_FILE_TO_PLAY" ver="1">Seleziona il file WAV</t>
+<t id="L_SELECT_WAV_FILE_TO_PLAY" ver="1">Seleziona WAV File</t>
 <t id="W_SLIC3R_SETUP" ver="1">Slic3r Setup</t>
 <t id="L_SLIC3R_SETUP" ver="1">Slic3r Setup</t>
-<t id="L_SLIC3R_BLANK_BUNDLE" ver="1">Lasciare vuoto per usare la versione predefinita.</t>
+<t id="L_SLIC3R_BLANK_BUNDLE" ver="1">Lascia vuoto per usare la versione predefinita (altrimenti specifica).</t>
 <t id="L_SLIC3R_CONFIG_DIR" ver="1">Cartella configurazione Slic3r</t>
-<t id="L_SLIC3R_EXECUTABLE" ver="1">Eseguibile Slic3r</t>
+<t id="L_SLIC3R_EXECUTABLE" ver="1">File eseguibile Slic3r</t>
 <t id="L_SLIC3R_INFO" ver="1">Con queste impostazioni, si è in grado di utilizzare diverse versioni di Slic3r. E' possibile ottenere le nuove versioni da http://www.slic3r.org La versione minima richiesta è 0.9.0. Lasciare tutti i campi vuoti per utilizzare semplicemente la versione in bundle.</t>
-<t id="L_SLIC3R_BLANK_CONFIG" ver="1">Lasciare vuoto per usare il percorso predefinito.</t>
+<t id="L_SLIC3R_BLANK_CONFIG" ver="1">Lasciare vuoto per usare la localizzazione predefinita.</t>
 <t id="W_EEPROM_MARLIN" ver="1">Impostazioni Marlin Firmware EEPROM</t>
 <t id="L_M_ACCELERATION" ver="1">Accelerazione:</t>
 <t id="L_M_ADVANCED_VARIABLES" ver="1">Variabili avanzate:</t>
@@ -437,13 +437,13 @@ La seconda versione offre risultati migliori, se l'altezza layer cambia, ciò pu
 <t id="L_M_STEPS_PER_MM" ver="1">Passi per mm:</t>
 <t id="L_M_RETRACT_ACCELERATION" ver="1">Accelerazione ritrazione:</t>
 <t id="B_M_LOAD" ver="1">Ricarica Configurazione</t>
-<t id="B_M_RESTORE" ver="1">Reimposta parametri iniziali</t>
+<t id="B_M_RESTORE" ver="1">Ristabilisci impostazioni iniziali</t>
 <t id="B_M_SAVE" ver="1">Salva su EEPROM</t>
 <t id="L_M_CONFIRM_WRITE" ver="1">Impostazioni memorizzate per l'esecuzione della configurazione.
 Scrivere i cambiamenti nella EEPROM?</t>
 <t id="L_M_SETTINGS_STORED" ver="1">Impostazioni salvate</t>
-<t id="L_M_SAVE_RETIEVED" ver="1">Salvare i cambiamenti recuperati nella EEPROM?</t>
-<t id="L_M_FACTORY_RETRIEVED" ver="1">Impostazioni iniziali recuperate</t>
+<t id="L_M_SAVE_RETIEVED" ver="1">Salvare i cambiamenti recupertati in EEPROM?</t>
+<t id="L_M_FACTORY_RETRIEVED" ver="1">Impostazioni di fabbrica recuperate</t>
 <t id="L_SLICING_STL_FILE..." ver="1">Slicing del file STL...</t>
 <t id="L_SKEIN_STILL_RUNNING" ver="1">L'ultimo lavoro di slicing è ancora in corso. Il nuovo slicing è stato cancellato.</t>
 <t id="L_SKEIN_KILLED" ver="1">$1 Processo di slicing terminato su richiesta dell'utente.</t>
@@ -484,8 +484,8 @@ Scrivere i cambiamenti nella EEPROM?</t>
 <t id="L_SHAPE_INFO" ver="3">I valori Min e Max definiscono il range delle coordinate dell'estrusore. Queste coordinate possono essere negative e fuori dal piano stampa. Il comando piano a sinistra/davanti definisce le coordinate in cui la stessa stampa inizia. Modificando i valori Min/Max si può anche spostare l'origine nel centro del piano di stampa, sempre se supportato dal firmware.</t>
 <t id="L_SELECTION_BOX" ver="3">Seleziona box:</t>
 <t id="L_FILAMENT_NONE" ver="3">Nessuno/Uguale a Estrusore 1</t>
-<t id="L_REALLY_QUIT" ver="3">Stampa non completata. Uscire comunque?</t>
-<t id="M_DONATE" ver="3">Dona via PayPal</t>
+<t id="L_REALLY_QUIT" ver="3">Stampa non completata. Vuoi uscire comunque?</t>
+<t id="M_DONATE" ver="3">Dona o Supporta</t>
 <t id="L_FAN" ver="4">Ventola</t>
 <t id="L_HOME_X:" ver="4">Home X:</t>
 <t id="L_HOME_Y:" ver="4">Home Y:</t>
@@ -497,10 +497,10 @@ Scrivere i cambiamenti nella EEPROM?</t>
 <t id="L_CREATE_FOLDER_INFO" ver="4">Inserire nome cartella in notazione: 8.3</t>
 <t id="L_UPLOADING_TIME" ver="4">Aggiornamento tempo: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Filamento: $1</t>
-<t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Visualizzazione percorso disattiva</t>
-<t id="M_HIDE_TRAVEL" ver="4">Percorso</t>
-<t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Visualizzazione percorso attiva</t>
-<t id="M_SHOW_TRAVEL" ver="4">Percorso</t>
+<t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Visualizzazione percorso disabilitata</t>
+<t id="M_HIDE_TRAVEL" ver="4">Nascondi percorso</t>
+<t id="L_GO_FIRST_LAYER" ver="4">Vai al primo layer</t>
+<t id="M_SHOW_TRAVEL" ver="4">Mostra percorso</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Percorso senza estrusione:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS">Disabilita visualizzazione percorso</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Numero di estrusori:</t>
@@ -532,13 +532,13 @@ Scrivere i cambiamenti nella EEPROM?</t>
 <t id="L_YES" ver="9">Si</t>
 <t id="L_NO" ver="9">No</t>
 <t id="L_MODEL_CHANGED_RELOAD" ver="9"><![CDATA[Uno o più oggetti sono cambiati.
-ricaricarli?]]></t>
+vuoi ricaricarli?]]></t>
 <t id="L_FILES_CHANGED" ver="9">Files modificati</t>
 <t id="L_INNER_FACES" ver="9">Facce interne:</t>
 <t id="L_BACKGROUND_TOP" ver="9">Background alto:</t>
 <t id="L_BACKGROUND_BOTTOM" ver="9">Background basso:</t>
 <t id="L_PRINTER_FRAME" ver="9">Griglia:</t>
-<t id="L_ISOMETRIC_VIEW" ver="9">Vista isometrica</t>
+<t id="L_ISOMETRIC_VIEW" ver="9">Visuale isometrica</t>
 <t id="L_BOTTOM_VIEW" ver="9">Vista dal basso</t>
 <t id="L_LEFT_VIEW" ver="9">Vista sinistra</t>
 <t id="L_RIGHT_VIEW" ver="9">Vista destra</t>
@@ -561,16 +561,16 @@ ricaricarli?]]></t>
 <t id="L_ANA_NOT_ORIENTED" ver="9">Non Orientato</t>
 <t id="M_TOOLS" ver="9">Strumenti</t>
 <t id="M_BELT_CALCULATOR" ver="9">Calcolatrice Cinghia</t>
-<t id="M_LEADSCREW_CALCULATOR" ver="9">Calcolatrice barra filettata</t>
+<t id="M_LEADSCREW_CALCULATOR" ver="9">Calcolatrice Leadscrew</t>
 <t id="L_MOTOR_STEP_ANGLE" ver="9">Angolo di passo motore</t>
 <t id="L_DRIVER_MICROSTEPPING" ver="9">Driver Microstepping</t>
-<t id="L_BELT_PITCH" ver="9">Passo cinghia</t>
+<t id="L_BELT_PITCH" ver="9">Pitch cinghia</t>
 <t id="L_TOOTH_COUNT" ver="9">Numero denti </t>
 <t id="B_CALCULATE" ver="9">Calcola</t>
-<t id="L_STEPS_PER_MM" ver="9">Valore passi per mm</t>
-<t id="L_TOOTH_COUNT_MUST_INT" ver="9">Il numero dei denti deve essere int</t>
+<t id="L_STEPS_PER_MM" ver="9">Valori steps per mm</t>
+<t id="L_TOOTH_COUNT_MUST_INT" ver="9">Il n° dei denti deve essere int</t>
 <t id="L_LEADSCREW_PITCH" ver="9">Passo filettatura</t>
-<t id="L_GEAR_RATIO" ver="9">Rapporto di trasmissione</t>
+<t id="L_GEAR_RATIO" ver="9">Rappor di trasmissione</t>
 <t id="L_SERIAL_CONNECTION" ver="9">Connessione seriale</t>
 <t id="L_VIRTUAL_CONNECTION" ver="9">Stampante virtuale</t>
 <t id="L_REPETIER_SERVER_CONNECTION" ver="9">Repetier-Server</t>
@@ -579,8 +579,8 @@ ricaricarli?]]></t>
 <t id="L_DTR_LOW_HIGH" ver="9">DTR high->low</t>
 <t id="L_DTR_LOW_HIGH_LOW" ver="9">DTR low->high->low</t>
 <t id="L_DTR_TOGGLE" ver="9">DTR toggle</t>
-<t id="L_RESET_ON_CONNECT" ver="9">Reset su connessione</t>
-<t id="L_RESET_ON_EMERGENCY" ver="9">Reset su emergenza</t>
+<t id="L_RESET_ON_CONNECT" ver="9">Reset alla connessione</t>
+<t id="L_RESET_ON_EMERGENCY" ver="9">Reset in emergenza</t>
 <t id="L_SEND_EMERGENCY_CMD" ver="9">Invia comando emergenza</t>
 <t id="L_SEND_EMERGENCY_CMD_DTR_TOGGLE" ver="9">Invia comando emergenza + DTR high->low</t>
 <t id="L_SEND_EMERGENCY_CMD_RECONNECT" ver="9">Invia comando emergenza e riconnetti</t>
@@ -589,7 +589,7 @@ ricaricarli?]]></t>
 <t id="L_CONNECTION_FAILED" ver="9">la connessione è fallita con il seguente errore: $1. Assicurarsi che la stampante sia connessa, abilitata e che le connessioni siano corrette. Aprire le impostazioni stampante?</t>
 <t id="L_AUTOENABLE_PARALLEL_TOPVIEW" ver="9">Abilita modalità "parallela" in vista dall'alto</t>
 <t id="L_RESET_DEFAULTS" ver="9">Torna ai valori predefiniti</t>
-<t id="L_REMOVED_DEGENERATED" ver="9">Rimuovi triangoli degenerati:</t>
+<t id="L_REMOVED_DEGENERATED" ver="9">Rimuovi trinagoli degenerati:</t>
 <t id="L_REMOVED_ISOLATED" ver="9">Rimuovi triangoli isolati:</t>
 <t id="L_REMOVED_DOUBLE" ver="9">Rimuovi doppi triangoli:</t>
 <t id="L_STARTING_ANALYSER" ver="9">Inizio analisi dell'oggetto ...</t>
@@ -617,9 +617,9 @@ ricaricarli?]]></t>
 <t id="L_SHOW_COMPASS" ver="9">Mostra compasso</t>
 <t id="L_CONFIRM_DELETE_JOB" ver="10">Siete sicuri di voler cancellare il lavoro $1?</t>
 <t id="L_PRINT_STATE_SAVED_SUCCESSFULLY" ver="10">Stato di stampa salvato con successo</t>
-<t id="M_POSPONED_JOBS" ver="10">Posponi lavoro</t>
+<t id="M_POSPONED_JOBS" ver="10">Posponi stampa</t>
 <t id="M_RESUME_JOB" ver="10">Riprendi</t>
-<t id="M_POSTPONE_JOB" ver="10">Posporre lavoro corrente</t>
+<t id="M_POSTPONE_JOB" ver="10">Posticipa stampa corrente</t>
 <t id="W_POSTPONED_PRINT_JOBS" ver="10">Posponi lavori di stampa</t>
 <t id="M_POSTPONED_JOB_SELECT_JOB" ver="10">Riprendi lavoro</t>
 <t id="M_POSTPONED_JOB_KILL_JOB" ver="10">Cancella lavoro</t>
@@ -630,13 +630,13 @@ ricaricarli?]]></t>
 <t id="B_FORCE_SAVE_POSTPONED_JOB" ver="10">Forza</t>
 <t id="B_RESUME_PRINTING_JOB" ver="10">Riprendi</t>
 <t id="W_POSTPONED_JOB_DIALOG" ver="10">Posponi lavoro di stampa</t>
-<t id="M_TOGGLE_PRINTER_ID" ver="10">Attiva/Disattiva vista ID stampante</t>
+<t id="M_TOGGLE_PRINTER_ID" ver="10">Attiva/Disattiva Vista ID stampante</t>
 <t id="L_PRINTER_ID" ver="10">ID Stampante</t>
 <t id="L_BGCOLOR:" ver="10">Colore Sfondo:</t>
 <t id="L_EDIT_INSTANCE_NAME" ver="10">Modifica ID stampante</t>
 <t id="L_ANAYLSING" ver="10">Analisi in corso</t>
 <t id="L_NOT_TESTED" ver="10">Non testato</t>
-<t id="L_CONNECTOR:" ver="10">Connessione:</t>
+<t id="L_CONNECTOR:" ver="10">Connettore:</t>
 <t id="L_NORMAL_CORRECTION_IMPOSSIBLE" ver="10">La correzione normale non è possibile per le meshes non-manifold.</t>
 <t id="M_MED_HEIGHT_MAP" var="10">Mappa 3D piatto di stampa</t>
 <t id="M_CREATE_HEIGHT_MAP" var="10">Crea Mappa 3D</t>
@@ -660,9 +660,8 @@ ricaricarli?]]></t>
 <t id="OBJECTS_ARE_IN_FOOT" ver="10">Gli oggetti sono in piedi</t>
 <t id="OBJECTS_ARE_IN_METER" ver="10">Gli oggetti sono in metri</t>
 <t id="B_RESET" ver="10">Reset</t>
-<t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition è un programma esterno, può essere avviato separatamente. Per altre informazioni, visitare la seguente webpage: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r è un programma esterno, può essere avviato separatamente. Per altre informazioni, visitare la seguente webpage: http://slic3r.org</t>
-  <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge è un programma esterno, può essere avviato separatamente. Per altre informazioni, visitare la seguente webpage: http://fabmetheus.crsndoo.com/</t>
+<t id="L_SLIC3R_INFO2" ver="10">Slic3r è un programma separato, può essere avviato separatamente. Per altre informazioni puoi visitare la seguente webpage: http://www.slic3r.org</t>
+<t id="L_SKEINFORGE_INFO" ver="10">Skeinforge è un programma separato, lo puoi avviare separatamente. Per altre informazioni puoi visitare la seguente webpage: http://fabmetheus.crsndoo.com/</t>
 <t id="L_PRINT_SETTINGS:" ver="10">Impost. Stampa:</t>
 <t id="L_PRINTER_SETTINGS:" ver="10">Impost. Stampante:</t>
 <t id="L_OVERRIDE_SLIC3R_SETTINGS" ver="10">Sovrascrivi impostazioni Slic3r</t>
@@ -684,14 +683,14 @@ ricaricarli?]]></t>
   <t id="B_DELETE" ver="10">Cancella</t>
   <t id="L_SLICER" ver="10">Slicer</t>
   <t id="L_CONFIGURATION:" ver="10">Configurazione:</t>
-  <t id="L_SETUP" ver="10">Impostazioni</t>
+  <t id="L_SETUP" ver="10">Setup</t>
   <t id="L_SLICER_CONFIGURATIONS" ver="10">Configurazioni Slicer</t>
   <t id="L_NAME" ver="10">Nome</t>
   <t id="L_SLICER_MANAGER" ver="10">Gestore Slicer</t>
-  <t id="L_ASK_LOAD_GCODE" ver="10">Lo slicer ha creato un nuovo file g-code. Caricarlo?</t>
+  <t id="L_ASK_LOAD_GCODE" ver="10">Lo slicer ha creato un nuovo file g-code. Vuoi caricarlo?</t>
   <t id="L_QUESTION" ver="10">Domanda</t>
   <t id="L_FILE_TYPES:" ver="10">Formato File:</t>
-  <t id="L_WATCHDIRECTORY_INFO" ver="10">La watch directory mostra i tipi di files definiti qui sopra. Separare tipi multipli con un punto e virgola come "g;gcode". Ogni stampante ha le sue impostazioni di directory. Se un file è nuovo o è cambiato, quando si torna a Repetier-Host verrà mostrato e evidenziato per una importazione rapida.</t>
+  <t id="L_WATCHDIRECTORY_INFO" ver="10">La watch directory mostra i tipi di files definiti sotto. Separa tipi multipli con un punto e virgola come "g;gcode". Ogni stampante ha le sue impostazioni di directory. Se un file è nuovo o è cambiato, quando torni a Repetier-Host verrà mostrato e evidenziato per una importazione rapida.</t>
   <t id="B_LOAD" ver="10">Carica</t>
   <t id="L_CHANGED" ver="10">Cambia</t>
   <t id="L_NEW" ver="10">Nuovo</t>
@@ -705,19 +704,19 @@ ricaricarli?]]></t>
   <t id="L_CACHING..." ver="10">Caching ... $1%</t>
   <t id="M_MAKE_SCREENSHOT" ver="10">Salva Screenshot</t>
   <t id="PNG_FILTER" ver="10">PNG-Images|*.png</t>
-  <t id="L_INVALID_FILENAME" ver="10">Nome file non valido.</t>
-  <t id="L_EEPROM_IMPORT_FAILED" ver="10">Importazione dati da EEPROM fallita. Formato file non valido.</t>
+  <t id="L_INVALID_FILENAME" ver="10">Nome file invalido.</t>
+  <t id="L_EEPROM_IMPORT_FAILED" ver="10">Importazione da eeprom data fallita. Formato file non valido.</t>
   <t id="L_EXPORT_EEPROM_DATA" ver="10">Esporta dati EEPROM</t>
   <t id="L_IMPORT_EEPROM_DATA" ver="10">Importa dati EEPROM</t>
 <t id="L_TIME_H" ver="10">$1h </t>
 <t id="L_TIME_M" ver="10">$1m </t>
 <t id="L_SHOW_OUTPUT_EXTRUDER" ver="10">Output Estrusore</t>
 <t id="L_SHOW_OUTPUT_BED" ver="10">Output Piano</t>
-<t id="M_SHOW_BED_POWER" ver="10">Mostra potenza piano stampa</t>
+<t id="M_SHOW_BED_POWER" ver="10">Mostra potenza piatto stampa</t>
   <t id="L_ENABLE_ANTI_ALIAS" ver="10">Attiva, se possibile, l'anti-aliasing (rallenta la visualizzazione, è richiesto il riavvio)</t>
   <t id="L_MODEL_ERRORS_EDGE:" ver="10">Errori del modello (bordi)</t>
   <t id="L_CUT_FACES:" ver="10">Facce tagliate:</t>
-  <t id="L_NOT_MANIFOLD_INFO" ver="11">L'oggetto è "non-manifold". Ciò significa in sostanza, che non è "a tenuta stagna". Questo, normalmente, causa problemi durante lo slicing, causando risultati indesiderati. Si consiglia vivamente di riparare il file. Un servizio di riparazione libero è: https://tools3d.azurewebsites.net</t>
+  <t id="L_NOT_MANIFOLD_INFO" ver="11">L'oggetto è "non-manifold". Ciò significa in sostanza, che non è "a tenuta stagna". Questo, normalmente, causa problemi durante lo slicing, causando risultati indesiderati. Si consiglia vivamente di riparare il file. Un servizio di riparazione libero è: https://netfabb.azurewebsites.net</t>
   <t id="L_EXPERT_MODE" ver="11">Modalità Esperto</t>
 <t id="L_CURAENGINE_EXECUTABLE" ver="11">Eseguibile CuraEngine</t>
 <t id="L_CURAENGINE_INFO" ver="11">CuraEngine è un programma esterno sviluppato da David Braam. Per maggiori informazioni visita https://www.ultimaker.com</t>
@@ -749,7 +748,7 @@ ricaricarli?]]></t>
   <t id="L_PUSH_MSG_SLICING" ver="11">Slicing per la stampante $1 finito.</t>
   <t id="L_PUSH_HEAD_FATAL" ver="11">Errore Irreversibile</t>
   <t id="L_PUSH_MSG_FATAL" ver="11">Errore irreversibile sulla stampente $1. Messaggio: $2</t>
-  <t id="L_CURA_EXTRUDER_INFO" ver="11">CuraEngine supporta solo un diametro di estrusore e un valore di flusso, perchè assume che si abbiano estrusori identici. Se avete un setup multi-estrusore con differenti valori, i valori del primo estrusore saranno usati per tutti. Le temperature sono impostate nel g-code di avvio, quindi usare differenti temperature per differenti materiali  non è un problema. Per il raffreddamento vengono usati i valori più alti di tutti gli estrusori.</t>
+  <t id="L_CURA_EXTRUDER_INFO" ver="11">CuraEngine supporta solo un diametro di estrusore e un valore di flusso, perchè assume che si abbiano estrusori identici. Se avete un setup multi-estrusore con differenti valori, i valori del primo estrusore saranno usati per tutti. le temperature sono impostate nel g-code di avvio, quindi usare differenti temperature per differenti materiali  non è un problema. Per il raffreddamento vengono usati i valori più alti di tutti gli estrusori.</t>
   <t id="L_TCPIP_CONNECTION" ver="11">Connessione TCP/IP</t>
   <t id="L_IP_ADDRESS:" ver="11">Indirizzo IP:</t>
   <t id="L_INFORMER_GROUP_INFO" ver="11">Id gruppo target della app.</t>
@@ -763,7 +762,7 @@ ricaricarli?]]></t>
   <t id="L_FILENAME:" ver="11">Nome file:</t>
   <t id="L_ASSIGNED_EXTRUDER:" ver="11">Estrusore Assegnato:</t>
   <t id="L_ASSIGNED_OBJECT:" ver="11">Oggetto Assegnato:</t>
-  <t id="L_EXTRACT_FROM_GROUP" ver="11">Estrai dal gruppo</t>
+  <t id="L_EXTRACT_FROM_GROUP" ver="11">Extrai dal gruppo</t>
   <t id="L_SHOW_PLATER" ver="11">Mostra piatto all'interno di slic3r</t>
   <t id="L_PRINT" ver="11">Stampa</t>
   <t id="L_SPEED_AND_QUALITY" ver="11">Velocità e Qualità</t>
@@ -774,14 +773,14 @@ ricaricarli?]]></t>
   <t id="L_GENERAL_EXTRUDER_SETTINGS" ver="11">Impostazioni Generali Estrusore</t>
   <t id="L_INFILL" ver="11">Infill</t>
   <t id="L_MESH_ERRORS" ver="11">Errori Mesh</t>
-  <t id="L_MULTI_EXTRUDER_SETTINGS" ver="11">Impostazioni Multi Estrusore</t>
+  <t id="L_MULTI_EXTRUDER_SETTINGS" ver="11">Impostazioni Multi Extrusore</t>
   <t id="L_QUALITY" ver="11">Qualità</t>
   <t id="L_RAFT" ver="11">Raft</t>
   <t id="L_SELECTED_QUALITY_SETTING" ver="11">Impostazioni di Qualità Selezionate</t>
   <t id="L_SKIRT_AND_BRIM" ver="11">Skirt e Brim</t>
   <t id="L_SPEED" ver="11">Velocità</t>
   <t id="L_SUPPORT" ver="11">Supporto</t>
-  <t id="L_BED_TEMPERATURE:" ver="11">Temperatura piano:</t>
+  <t id="L_BED_TEMPERATURE:" ver="11">Temperatura piatto:</t>
   <t id="L_BRIM_WIDTH:" ver="11">Dimensione Brim:</t>
   <t id="L_INFILL_DENSITY:" ver="11">Densità Infill:</t>
   <t id="L_INFILL_OVERLAP:" ver="11">Sovrapposizione Infill:</t>
@@ -815,7 +814,7 @@ ricaricarli?]]></t>
   <t id="L_SUPPORT_TYPE:" ver="11">Tipo Supporto:</t>
   <t id="L_TOP/BOTTOM_THICKNESS:" ver="11">Spessore Top/Bottom:</t>
   <t id="L_VOLUME_OVERLAP:" ver="11">Volume Overlap:</t>
-  <t id="L_WIPE_AND_PRIME_VOLUME:" ver="11">Volume Wipe e Prime:</t>
+  <t id="L_WIPE_AND_PRIME_VOLUME:" ver="11">Wipe and Prime Volume:</t>
   <t id="L_Z_HOP:" ver="11">Z Hop:</t>
   <t id="L_SHELL_THICKNESS:" ver="11">Spessore involucro:</t>
   <t id="L_DISTANCE_XY:" ver="11">Distanza XY:</t>
@@ -826,17 +825,17 @@ ricaricarli?]]></t>
   <t id="L_FIRST_LAYER_HEIGHT:" ver="11">Altezza Primo Layer:</t>
   <t id="L_COMBINE_EVERYTHING_A" ver="11">Combina Tutto (Tipo A)</t>
   <t id="L_COMBINE_EVERYTHING_B" ver="11">Combina Tutto (Tipo B)</t>
-  <t id="L_MINIMIZE_CROSSING_PERIMETERS" ver="11">Minimizza attrav. Perimetri:</t>
+  <t id="L_MINIMIZE_CROSSING_PERIMETERS" ver="11">Minimizza Attraversamento Perimetri</t>
   <t id="L_ENABLE_RETRACTION" ver="11">Abilita Ritrazione</t>
   <t id="L_EXTENSIVE_STITCHING" ver="11">Extensive Stitching</t>
   <t id="L_KEEP_OPEN_FACES" ver="11">Keep Open Faces</t>
   <t id="L_CREATE_OOZE_SHIELD" ver="11">Crea Ooze Shield</t>
   <t id="L_CREATE_WIPE_PRIME" ver="11">Crea Wipe and Prime Tower</t>
-  <t id="L_SPIRALIZE_CONTOUR" ver="11">Spiralizza Contorno</t>
+  <t id="L_SPIRALIZE_CONTOUR" ver="11">Spiralize Contour</t>
   <t id="L_SOLID_TOP_INFILL" ver="11">Infill Solido Top</t>
   <t id="L_SOLID_BOTTOM_INFILL" ver="11">Infill Solido Bottom</t>
   <t id="L_COOL_HEAD_LIFT" ver="11">Cool Head Lift</t>
-  <t id="L_FILL_AMOUNT:" ver="11">Densità Riempimento:</t>
+  <t id="L_FILL_AMOUNT:" ver="11">Densità Riempimemto:</t>
   <t id="L_CURAENGINE_SETTINGS" ver="11">Impostazioni CuraEngine</t>
   <t id="L_PRINT_CONFIGURATION:" ver="11">Impostazione stampa:</t>
   <t id="L_ADHESION_TYPE:" ver="11">Tipo di adesione:</t>
@@ -876,37 +875,37 @@ Usa "Crea Predefinito" per avere un buon script di partenza che potrai modificar
   </t>
   <t id="H_RETRACTION_DISTANCE" ver="11">
     Distanza di ritrazione. Imposta 0 per nessuna ritrazione.
-    Valori tipci vanno da 2mm per estrusori diretti, a 
+    Valori tipci vanno da 2mm per estrusori diretti a 
     7mm per estrusori bowden.
   </t>
   <t id="H_FIRST_LAYER_HEIGHT" ver="11">
     Altezza del layer inferiore. Un layer più spesso
     meglio compensa le eventuali irregolarità del piano
-    di stampa.
+    di stampa
   </t>
     <t id="H_CUT_OFF_OBJECT_BOTTOM" ver="11">
     Affonda l'oggetto nella piattaforma. Può essere
-    utilizzato per gli oggetti che non hanno un fondo piano,
-    creando così un primo layer troppo piccolo.
+    utilizzato per gli oggetti che non hanno un fondo piatto
+    e creare così primo layer troppo piccolo.
   </t>
   <t id="H_VOLUME_OVERLAP" ver="11">
     Per questa lunghezza, i diversi colori o materiali si
-    sovrapporranno in multi-estrusione, in modo che si 
-    colleghino meglio insieme.
+    sovrapporranno in multi-estrusione, in modo che si colleghino
+    meglio insieme.
   </t>
   <t id="H_TRAVEL_SPEED" ver="11">
-    Velocità a cui vengono effettuati gli spostamenti.
+    Velocità a cui vengono effettuati gli spostamenti
     Può essere anche veloce, ma se il valore è troppo alto
     alcune stampanti possono perdere passi.
   </t>
   <t id="H_FIRST_LAYER_SPEED" ver="11">
-    Velocità per il primo layer. Dovrebbe essere più
-    bassa per far aderire meglio al piano di stampa.
+    Velocità per il primo layer. Dobrebbe essere
+    più bassa per aderire meglio al piano di stampa.
   </t>
   <t id="H_INFILL_SPEED" ver="11">
     Velocità a cui viene stampato l'infill. Velocità più alte 
-    riducono il tempo di stampa, ma possono ridurre anche la
-    qualità di stampa.
+    riducono il tempo di stampa, ma possono ridurre anche
+    la qualità di stampa.
   </t>
   <t id="H_OUTER_PERIMETER_SPEED" ver="11">
     A questa velocità viene stampanto il perimetro esterno.
@@ -917,13 +916,13 @@ Usa "Crea Predefinito" per avere un buon script di partenza che potrai modificar
   </t>
     <t id="H_INNER_PERIMETER_SPEED" ver="11">
     A questa velocità viene stampato il perimetro interno.
-    Stampando più veloce del perimetro esterno, si riduce
+    Stampando più veloce che il perimetro interno riduce
     il tempo di stampa. La velocità dovrebbe essere fra
     la velocità di infill e la velocità del perimetro esterno.
   </t>
   <t id="H_MINIMUM_LAYER_TIME_COOLING" ver="11">
-    Tempo minimo per la stampa di un layer. Il tempo dovrebbe
-    essere sufficientemente alto per far raffreddare il layer.
+    Tempo minimo per la stampa di un layer. il tempo dovrebbe
+    essere sufficientemente alto da raffreddare il layer.
     Se la velocità di stampa è troppo alta, verrà ridotta fino 
     ad impiegare questo tempo per un layer.
   </t>
@@ -933,7 +932,7 @@ Usa "Crea Predefinito" per avere un buon script di partenza che potrai modificar
     specialmente con il PLA, salti e aree fortemente verticali.
   </t>
   <t id="H_LAYER_HEIGHT" ver="11">
-    Con l'altezza del layer in mm potete impostare
+    Con l'altezza del layer in mm puoi impostare
     la risoluzione di stampa sull'asse Z. Valori più
     bassi aumentano la qualità, ma allungano i tempi 
     di stampa. Valori normali sono fra 0.1mm e 0.4mm
@@ -944,24 +943,24 @@ Usa "Crea Predefinito" per avere un buon script di partenza che potrai modificar
     determina il numero delle linee di perimetro.
   </t>
   <t id="H_ENABLE_RETRACTION" ver="11">
-    Ritrae il filamento quando l'ugello è in movimento
-    su un'area non stampata. Questo aiuta a ridurre o
-    terminare la filatura.
+    Ritrarre il filamento quando l'ugello è in movimento
+    su un'area non stampata. Questo aiuta a ridurre
+    o terminare la filatura.
   </t>
   <t id="H_TOP_BOTTOM_THICKNESS" ver="11">
-    Imposta il numero dei layers solidi sulla testa
-    e la base. A seconda della densità di infill,
+    Imposta il numero dei layers solidi sulla testa e
+    la base. A seconda della densità di infill, non
     dovreste incrementare lo spessore, in modo che
-    l'infill non traspare attraverso, incrementando
-    la qualità. 1mm è normalmente un buon valore.
+    l'infill non traspare attraverso, incrementando la 
+    qualità. 1mm è normalmente un buon valore.
   </t>
   <t id="H_INFILL_DENSITY" ver="11">
     Qui si determina la densità in infill. Oggetti massivi
     sono al 100%, oggetti vuoti allo 0%. Più alto è il
-    valore di infill, più stabile è l'oggetto. Con un valore
-    basso si può invece risparmiare tempo di stampa e 
+    valore di infill, più stabile è l'oggetto. Con una valore
+    più basso si può invece risparmiare tempo di stampa e 
     filamento. Valori normali sono fra il 20% e il 30%,
-    se non è necessaria una alta stabilità.
+    se non è necessaria una alta stabilità
   </t>
   <t id="H_PRINT_SPEED" ver="11">
     Velocità di stampa per tutte le parti che non hanno
@@ -994,7 +993,7 @@ Usa "Crea Predefinito" per avere un buon script di partenza che potrai modificar
     che può essere facilmente tagliata successivamente.
     Brim è richiesto se gli oggetti deformano ai bordi.
 
-    "Raft" Aggiunge uno spessore raster sotto l'oggetto e una 
+    "Raft" Aggiunge uno spessore raster sotto l'oggetto a una 
     fine interfaccia fra questo e l'oggetto, che può essere
     rimossa dopo la stampa. Questo è necessario se avete
     un letto irregolare o un oggetto molto piccolo che non
@@ -1038,8 +1037,8 @@ Usa "Crea Predefinito" per avere un buon script di partenza che potrai modificar
     rischia di spianarsi e bloccare l'estrusore.
   </t>
   <t id="H_Z_HOP" ver="11">
-    La testa viene alzata di questa distanza durante la
-    ritrazione. Questo comporta positivi effetti per
+    La testa viene tirata su di questa distanza durante 
+    la ritrazione. Questo comporta positivi effetti per
     stampanti con un asse Z veloce, come le delta printers.
   </t>
   <t id="H_SKIRT_LINE_COUNT" ver="11">
@@ -1051,15 +1050,15 @@ Usa "Crea Predefinito" per avere un buon script di partenza che potrai modificar
   <t id="H_SKIRT_DISTANCE" ver="11">La distanza fra la linea di skirt e il modello.</t>
   <t id="H_MINIMUM_SKIRT_LENGTH" ver="11">
     La lunghezza minima della linea di skirt. Se la
-    Lunghezza non viene raggiunta, vengono aggunte altre
-    linee di skirt. Se il numero di linee è impostato a
-    zero questo valore viene ignorato.
+    Lunghezza non viene raggiunta, vengono aggunte altre linee
+    di skirt. Se il numero di linee è impostato a zero questo
+    valore viene ignorato.
   </t>
   <t id="H_FAN_FULL_ON_AT_HEIGHT" ver="11">
     L'altezza a cui la ventola viene attivata
-    completamente. Per i layers inferiori, la
-    velocità della ventola viene scalata linearmente
-    fino allo spengimento per il primo layer.
+    completamente. Per i layers inferiori la velocità della
+    ventola viene scalata linearmente fino allo spengimento
+    per il primo layer.
   </t>
   <t id="H_MIN_FAN_SPEED" ver="11">La velocità minima della ventola di raffreddamento. Se
 il tempo del layer è più basso del tempo minimo dei layer, la 
@@ -1072,9 +1071,9 @@ al rallentamento.</t>
     velocità di più del 50%.
   </t>
   <t id="H_COOL_HEAD_LIFT" ver="11">
-    Alza la testina se stampando con la velocità minima, si è
+    Alza la testina se stampando con la veloctà minima, si è
     più veloci del tempo minimo per il layer, dopo che il
-    layer viene stampato.
+    layer viene stampato
   </t>
 <t id="H_MINIMUM_COOLING_SPEED" ver="11">Il tempo minimo su un layer che può rallentare 
 la stampante fino a che il filamento rischia di
@@ -1082,13 +1081,13 @@ sciogliere. Questo tempo minimo prtegge da questo.
 Anche se la stampante rallenta, non sarà mai più
 lenta di questa velocità.</t> 
   <t id="H_SOLID_TOP_INFILL" ver="11">
-    Crea una superficie superiore solida. Se disattivato, 
-    il set infill verrà utilizzato. Utile per vasi 
+    Crea una superficie superiore solida. Se disabilitato, 
+    l'impostazione settata verrà utilizzata. Utile per vasi 
     definiti come volumi solidi
   </t>
   <t id="H_SOLID_BOTTOM_INFILL" ver="11">
-    Crea una superficie inferiore solida. Se disattivato,
-    il set infill verrà utilizzato. Utile per costruzioni
+    Crea una superficie inferiore solida. Se disattivato, il
+    verrà utilizzato set di infill. Utile per costruzioni
     definito come volumi solidi.
   </t>
   <t id="H_INFILL_OVERLAP" ver="11">
@@ -1097,7 +1096,7 @@ lenta di questa velocità.</t>
     che le aree verticali connettano correttamente con l'infill.
   </t>
   <t id="H_SUPPORT_PATTERN" ver="11">
-    Scegliere fra i motivi di supporto:
+    Scegli fra i motivi di supporto:
 
     "Grid" è molto forte e può venire fuori in
     un pezzo unico. A volte è troppo forte.
@@ -1121,7 +1120,7 @@ lenta di questa velocità.</t>
     far sì che il supporto non si attccchi all'oggetto.
   </t>
   <t id="H_DISTANCE_Z" ver="11">
-    Distanza fra il top/bottom del supporto all'oggetto.
+    Distanza fra il top/bottom del supporto all'oggetto
     Uno spazio piccolo rende più facile la rimozione
     del supporto.
   </t>
@@ -1132,8 +1131,8 @@ lenta di questa velocità.</t>
   </t>
   <t id="H_BRIM_WIDTH" ver="11">
     Lo spessore del brim. Con uno spessore più ampio
-    gli oggetti aderiscono meglio al piano di stampa,
-    ma viene ridotta l'effettiva area di stampa.
+    gli oggetti aderiscono meglio al piano di stampa, ma viene
+    ridotta l'effettiva area di stampa.
   </t>
   <t id="H_RAFT_EXTRA_MARGIN" ver="11">
     Questa è una area extra di raft intorno all'oggetto
@@ -1155,11 +1154,11 @@ lenta di questa velocità.</t>
   </t>
   <t id="H_RAFT_NUM_SURFACE_LAYER" ver="11">
     Sono i layers in testa al raft.
-    Hanno l'infill al 100%, per dare una
+    hanno l'infill al 100% infill per dare una
     superficie piana alla stampa.
   </t>
   <t id="H_COMBINE_EVERYTING_TYPE_A" ver="11">
-    Questa opzione avanzata aggiunge tutte le parti del
+    Questa opzione avanzata aggiunge tutte le parti
     modello insieme. Il risultato è che di solito le 
     cavità scompaiono. A seconda del modello di questa
     può essere inteso o non. Abilitare questa opzione a
@@ -1182,8 +1181,8 @@ lenta di questa velocità.</t>
     Questa opzione avanzata mantiene tutte le parti aperte del
     modello intatte. Normalmente Cura cerca di cucire piccoli
     fori e rimuovere tutto ciò con grandi fori, ma questa
-    opzione mantiene le parti che non sono propriamente parte di
-    qualcosa e va solo con qualunque cosa è persa.
+    opzione mantiene le parti che non sono propriamente parte di qualcosa
+    e va solo con qualunque cosa è persa.
     Questa opzione non è ciò che è di solito si vuole, ma potrebbe
     consentire di tagliare i modelli  altrimenti non
     riuscendo a produrre percorsi adeguati.
@@ -1192,7 +1191,7 @@ lenta di questa velocità.</t>
   </t>
   <t id="H_EXTENSIVE_STITCHING" ver="11">
     Extensive Stitching cerca di sistemare fori aperti nel
-    modello chiudendo il foro con dei poligoni.
+    modello chiudendo il foro con dei poligoni
     Questo algoritmo è computazionalmente intensivo
     e aumenta il tempo di slicing.
     Come tutte le opzioni avanzate, i risultati possono variare.
@@ -1259,15 +1258,15 @@ in modo da colmare il divario.</t>
     necessarie per la stampa.
   </t> 
     <t id="H_SLIC3R_ENABLE_COOLING" ver="11">
-    Attiva la ventola di raffreddamento durante la stampa.
+    Attiva la ventola di raffreddamento durante la stampa
     Questo può significativamente aumentare la qualità di stampa
-    specialmente con PLA, in zone di bridging e overhang.
+    specialmente con PLA, in zone di bridging e overhang
   </t>  
     <t id="H_SLIC3R_LAYER_HEIGHT" ver="11">
-    Con l'altezza del layer in mm potete impostare
+    Con l'altezza del layer in mm puoi impostare
     la risoluzione di stampa sull'asse Z. Valori più
-    bassi aumentano la qualità, ma allungano i tempi
-    di stampa. Valori normali sono fra 0.1mm e 0.4mm
+    bassi aumentano la qualità, ma allungano i tempi di stampa
+    Valori normali sono fra 0.1mm e 0.4mm
   </t>  
   <t id="H_SLIC3R_INFILL_DENSITY" ver="11">
     Determina la densità in infill. Oggetti massivi
@@ -1275,14 +1274,14 @@ in modo da colmare il divario.</t>
     valore di infill, più stabile è l'oggetto. Con un valore
     più basso si può invece risparmiare tempo di stampa e 
     filamento. Valori normali sono fra il 20% e il 30%,
-    se non è necessaria una alta stabilità.
+    se non è necessaria una alta stabilità
   </t>
   <t id="H_SLIC3R_INFILL_PATTERN" ver="11">
     Seleziona il motivo di riempimento
     interno.
   </t>
   <t id="H_SLIC3R_SOLID_INFILL_PATTERN" ver="11">
-    Seleziona il motivo di riempimento dell'involucro.
+    Seleziona il motivo di riempimento dell'involucro
   </t>
   <t id="B_CONFIGURE" ver="11">Configurazione</t>
   <t id="B_CURA_FAST" ver="11">Veloce</t> 
@@ -1293,7 +1292,7 @@ in modo da colmare il divario.</t>
   <t id="L_PREFERENCES" ver="11">Preferenze</t>
   <t id="L_BASIC_SETTINGS" ver="11">Impostazioni di base</t>
   <t id="L_3D_VISUALIZATION" ver="11">Visualizzazione 3D</t>
-  <t id="L_SHOW_HELP_BUBBLES" ver="11">Mostra Help Ballons (richiede riavvio)</t>
+  <t id="L_SHOW_HELP_BUBBLES" ver="11">Mostra Help Ballons (Richiede riavvio)</t>
   <t id="L_MAX_EXTRUDER_TEMP:" ver="11">Max. Temperatura Estrusore:</t>
   <t id="L_MAX_BED_TEMP:" ver="11">Max. Temperatura piano:</t>
   <t id="L_HAS_MIXING_EXTRUDER" ver="11">La stampante ha un estrusore misto (un ugello per tutti i colori)</t>
@@ -1338,32 +1337,43 @@ in modo da colmare il divario.</t>
     che viene estruso. Un valore più alto determina
     una linea stampata più spessa.
   </t>
+
   <t id="H_CONTROL_FAN" ver="11">
     Controlla la velocità della ventola. Un raffreddamento
     efficace aumenta la qualità di stampa, sopratutto negli
     sbalzi e nei nelle zone di ponte.
   </t>
+
   <t id="H_CONTROL_BED" ver="11">
     Controlla la temperatura del piano di stampa.
     Temperature tipiche per il PLA sono fra 50°C e 60°C,
     Per l'ABS fra 100°C and 120°C, a seconda dele
     rivestimento del piano.
   </t>
+
   <t id="H_CONTROL_EXTRUDER" ver="11">
     Controlla la temperatura dell'estrusore.
-    Temperature tipiche per il PLA sono fra 180°C
-    e 220°C, per l'ABS fra 240°C e 260°C, a seconda
-    del filamento e dell'estrusore.
+    Temperature tipiche per il PLA sono fra 180°C e 220°C,
+    Per l'ABS fra 240°C and 260°C, a seconda del
+    filamento e dell'estrusore.
   </t>
+
+
+
+
+
+
+
   <t id="H_PS_CONNECTOR" ver="11">
     Tipo di connessione alla stampante. Molte stampanti
     usano una connessione seriale. La connessione virtuale
     fornisce una stampante virtuale per prove.
   </t>
+
   <t id="H_PS_PORT" ver="11">
     Seleziona la porta della stampante. se non si conosce
     la porta, rimuovere il cavo USB della stampante e
-    fare clic su "Aggiorna porte" e prendere appunto
+    fare clic su "Aggiorna porte", e prendere appunto
     della lista che appare qui nel menù a discesa.
     Successivamente, collegare la stampante al computer e
     aggiornare nuovamente la lista. La stampante funziona
@@ -1371,6 +1381,7 @@ in modo da colmare il divario.</t>
     nuova porta, non è stato installato il corretto
     driver della stampante.
   </t>
+
   <t id="H_PS_BAUD_RATE" ver="11">
     La velocità di comunicazione della stampante. 
     Le velocità più comuni sono 115200 e 250000. E' possibile
@@ -1380,6 +1391,7 @@ in modo da colmare il divario.</t>
     quando si hanno problemi di connessione
     alla stampante.
   </t>
+
   <t id="H_PS_TRANSFER_PROTOCOL" ver="11">
     Il protocollo di trasferimento per lo scambio di dati fra 
     l'host e la stampante. Il protocollo binario è il 
@@ -1387,12 +1399,15 @@ in modo da colmare il divario.</t>
     repetier. "rilevamento automatico"  seleziona il miglior 
     metodo automaticamente.
   </t>
+
   <t id="L_AUTODETECT" ver="11">
     Rilevamento Automatico
   </t>
+
   <t id="L_REPETIER_PROTOCOL" ver="11">
     Repetier Protocol
   </t>
+
   <t id="H_PS_RESET_ON_CONNECT" ver="11">
     Molte schede permettono il reset cambiando il segnale
     del pin DTR o RTS. Fondamentalmente, è vantaggioso
@@ -1402,12 +1417,14 @@ in modo da colmare il divario.</t>
     Alcune stampanti non supportano questa modalità, 
     in questo caso è necessario disabilitare questa feature.
   </t>
+
   <t id="H_PS_RESET_ON_EMERGENCY" ver="11">
     Determina quello che succede quando lo stop di emergenza
     viene premuto. Dal momento che ci vuole un po' di tempo
     prima che il comando di stop venga ricevuto, si dovrebbe 
     combinare lo stop di emergenza con il reset.
   </t>
+
   <t id="H_PS_RECEIVE_CACHE_SIZE" ver="11">
    Per evitare piccole pause durante la stampa, l'host
    invia comandi multipli simultaneamente. Dovete
@@ -1418,125 +1435,152 @@ in modo da colmare il divario.</t>
    durante la comunicazione, questo valore è 
    probabilmente troppo grande.
   </t>
+
   <t id="H_PS_USE_PING_PONG_COMMUNICATION" ver="11">
     Nella comunicazione ping-pong, il dialogo con la stampante
     viene effettuato una istruzione alla volta, rendendo la 
     comunicazione è lenta. Normalmente questa opzione
     dovrebbe essere disabilitata, se possibile.
   </t>
+
   <t id="H_PS_IP_ADDRESS" ver="11">
     L'indirizzo IP sul quale la stampante è raggiungibile.
   </t>
+
   <t id="H_PS_IP_PORT" ver="11">
     la porta sulla quale la stampante è raggiungibile.
   </t>
+
   <t id="H_PS_VIRTUAL_BAUD_RATE" ver="11">
     Velocità di connessione per la stampante simulata. Da 250000
     nessuna pausa viene inserita, per valori inferiori le 
     appropriate pause vengono inserite.
   </t>
+
   <t id="H_PS_TRAVEL_FEED_RATE" ver="11">
     Velocità di movimento dell'estrusore in controllo
     manuale nelle direzioni X e Y.
   </t>
+
   <t id="H_PS_Z_AXIS_FEED_RATE" ver="11">
     Velocità di movimento dell'estrusore in controllo
     manuale nella direzione Z.
   </t>
+
   <t id="H_PS_MANUAL_EXTRUSION_SPEED" ver="11">
     Velocità di estrusione del filamento con il
     controllo manuale.
   </t>
+
   <t id="H_PS_MANUAL_RETRACTION_SPEED" ver="11">
     Velocità di ritrazione del filamento con il
     controllo manuale.
   </t>
+
   <t id="H_PS_DEFAULT_EXTRUDER_TEMPERATURE" ver="11">
     Questa temperatura viene proposta per l'estrusore
     quando si connette la stampante.
   </t>
+
   <t id="H_PS_DEFAULT_HEAT_BED_TEMPERATURE" ver="11">
     Questa temperatura viene proposta per il piano di stampa
     quando si connette la stampante.
   </t>
+
   <t id="H_PS_CHECK_EXTRUDER_AND_BED_TEMPERATURE" ver="11">
     Richiesto per il controllo della temperatura.
     Dovrebbe essere abilitato.
   </t>
+
   <t id="H_PS_REMOVE_TEMPERATURE_REQUEST_FROM_LOG" ver="11">
     Rimuove le voci per le richieste di temperatura dal log,
     in modo da rendere il log più pulito.
   </t>
+
   <t id="H_PS_CHECK_EVERY" ver="11">
     Definisce quanto spesso le temperature dell'estrusore
     e del piano di stampa vengono rilevate.
   </t>
+
   <t id="H_PS_PARK_POSITION_X" ver="11">
     Quando parcheggiato, l'estrusore è posizionato in 
     questa posizione dell'asse X.
   </t>
+
   <t id="H_PS_PARK_POSITION_Y" ver="11">
     Quando parcheggiato, l'estrusore è posizionato in 
     questa posizione dell'asse Y.
   </t>
+
   <t id="H_PS_PARK_POSITION_Z_MIN" ver="11">
     L'estrusore viene alzato per il parcheggio a
     questa altezza.
   </t>
+
   <t id="H_PS_SEND_ETA_TO_PRINTER_DISPLAY" ver="11">
     invia il tempo rimanente o il tempo stimato al 
     completamento del lavoro di stampa. Questo viene
     mostrato nella status bar dell'host e può 
-    essere cambiato, cliccando sul tempo, fra il tempo
+    essere cambiato cliccato sul tempo fra il tempo
     rimanente e l'ora di fine.
   </t>
+
   <t id="H_PS_DISABLE_EXTRUDER_AFTER_JOB_KILL" ver="11">
     Spenge l'estrusore dopo il completamento del lavoro
     di stampa e quando viene premuto lo stop di emergenza.
   </t>
+
   <t id="H_PS_DISABLE_MOTORS_AFTER_JOB_KILL" ver="11">
     Spenge i motori dopo il completamento del lavoro
     di stampa e quando viene premuto lo stop di emergenza.
   </t>
+
   <t id="H_PS_DISABLE_HEATED_BED_AFTER_JOB_KILL" ver="11">
     Spenge il piano riscaldato dopo il completamento del
     lavoro e quando viene premuto il tasto dello stop
     di emergenza.
   </t>
+
   <t id="H_PS_ADD_TO_COMP_PRINTING_TIME" ver="11">
-    Incrementa il tempo calcolato per la stampa di questo
+    Incrementa il tempo calcoltato per la stampa di questo
     valore. Questo è necessario perchè la stampante non
     può mantenere la velocità negli angoli.
     E' possibile così migliorare il calcolo del tempo stimato
     di stampa, anche se varia a seconda degli oggetti e delle
     impostazioni dello slicer.
   </t>
+
   <t id="H_PS_GO_TO_PARK_POSITION_AFTER_JOB_KILL" ver="11">
     Sposta l'estrusore alla posizione di parcheggio
     dopo il completamento di un lavoro e quando viene
 	premuto lo stop di emergenza.
   </t>
+
   <t id="H_PS_INVERT_MOVEMENT_DIRECTION" ver="11">
     Inverte la direzione di movimento degli
 	assi selezionati con il controllo manuale.
   </t>
+
   <t id="H_PS_NUMBER_OF_EXTRUDERS" ver="11">
     Qui è possibile specificare il numero di estrusori
 	della stampante.
   </t>
+
   <t id="H_PS_MAX_EXTRUDER_TEMPERATURE" ver="11">
-    Imposta la massima temperatura per l'estrusore che può
-    essere impostata nel controllo manuale. E' così possibile
-    evitare surriscaldamenti accidentali dell'estrusore.
+    Imposta la massima temperatura per l'estrusore che
+    può essere impostata nel controllo manuale. E' così 
+    possibile evitare accidentali surriscaldamenti dell'estrusore.
   </t>
+
   <t id="H_PS_MAX_BED_TEMPERATURE" ver="11">
-    Imposta la massima temperatura per il piano di stampa che può
-    essere impostata nel controllo manuale. E' così possibile
-    evitare surriscaldamenti accidentali del piano di stampa.
+    Imposta la massima temperatura per il piano di stampa che
+    può essere impostata nel controllo manuale. E' così 
+    possibile evitare accidentali surriscaldamenti del piano di stampa.
   </t>
+
   <t id="H_PS_PRINTER_HAS_MIXING_EXTRUDER" ver="11">
     Se si usa un estrusore misto, dove tutti i colori
-    vengono stampati con il solito ugello, attivare
+    sono stampati con il solito ugello, attivare
     questa opzione.
   </t>
 
@@ -1556,14 +1600,14 @@ in modo da colmare il divario.</t>
   </t>
 
   <t id="H_PS_OFFSET_X" ver="11">
-    Lo scostamento dell'estrusore in direzione X 
-    con più estrusori, se non sono configurati
+    Lo scostamento dell'estrusore in direzione X con
+    più estrusori, se non sono configurati
     all'interno del firmware.
   </t>
 
   <t id="H_PS_OFFSET_Y" ver="11">
-    Lo scostamento dell'estrusore in direzione Y
-    con più estrusori, se non sono configurati
+    Lo scostamento dell'estrusore in direzione Y con
+    più estrusori, se non sono configurati
     all'interno del firmware.
   </t>
 
@@ -1586,9 +1630,9 @@ in modo da colmare il divario.</t>
   <t id="L_END_GCODE" ver="11">G-Code Fine</t>
   <t id="L_BEFORE_EXTRUDER_SWITCH" ver="11">Prima di cambio estrusore</t>
   <t id="L_AFTER_EXTRUDER_SWITCH" ver="11">Dopo cambio estrusore</t>
-<t id="L_INVERT_DIRECTION_FOR" ver="11">Inverti direzione nei controlli per</t>
+<t id="L_INVERT_DIRECTION_FOR" ver="11">Inverti Direzione nei controllo per</t>
 <t id="L_EXPORTING_MODEL_FOR_SLICING" ver="11">Esportazione modelli per lo Slicing...</t>
-  <t id="L_MAX_VOLUME_PER_SECOND" ver="11">Volume Max per secondo:</t>
+  <t id="L_MAX_VOLUME_PER_SECOND" ver="11">Volume Max per secondo</t>
   <t id="H_PS_MAX_VOLUME_PER_SECOND" ver="11">
     Questo valore può essere usato dagli slicers per limitare
     la velocità di stampa basandosi sul volume richiesto.
@@ -1614,181 +1658,8 @@ in modo da colmare il divario.</t>
   <t id="L_OFFSET_X:" ver="12">Scostamento X:</t>
   <t id="L_OFFSET_Y:" ver="12">Scostamento Y:</t>
   <t id="L_NOZZLE_DIAMETER:" ver="12">Diametro ugello:</t>
-  <t id="L_0_OR_PRINTERSETTINGS:" ver="12">[mm o 0 = usa valore da "Impostazioni Stampante"]</t>
+  <t id="L_0_OR_PRINTERSETTINGS:" ver="12">[mm o 0 = usa valore dal "Impostazioni Stampante"]</t>
   <t id="L_SEE_ALSO_PRINTERSETTINGS" ver="12">Lo slicer usa anche i parametri definiti in "Impostazione Stampante""->"Estrusori"!</t>
   <t id="L_SHOW_QUICKSETTINGS" ver="12">Mostra Quicksettings</t>
-  <t id="L_INFORMER_URL" ver="12">URL:</t>
-  <t id="L_INFORMER_URL_INFO" ver="12">Aggiunge il link sopra ad ogni messaggio. Es. Un url a una webcam.</t>
-  <t id="L_PUSH_SD_STARTED" ver="12">Stampa da sd card sulla stampante $1 iniziata.</t>
-  <t id="L_PUSH_SD_FINISHED" ver="12">Stampa da sd card sulla stampante $1 terminata.</t>
-  <t id="L_FIRST_LAYER_EXTRUSION_WIDTH:" ver="12">Larghezza estrusione primo layer:</t>
-  <t id="H_FIRST_LAYER_EXTRUSION_WIDTH" ver="12">
-    Per una migliore adesione al piano, è spesso vantaggioso per il primo layer, estrudere
-    più filamento in modo da renderlo più ampio. Qui potete impostare quanto più ampia
-    debba essere la linea di base rispetto a quanto lo è l'estrusione standard. 
-    La densità di linea viene regolata di conseguenza.</t>
-  <t id="L_MIRROR_OBJECT" ver="12">Rifletti oggetto</t>
-  <t id="L_X_HOURS" ver="12">$1 Ore</t>
-  <t id="L_PUSH_MSG_PROGRESS" ver="12">La stampa su $1 terminerà all'incirca $2.</t>
-  <t id="L_PUSH_MSG_PROGRESS_SD" ver="12">La stampa su $1 è terminata $2%.</t>
-  <t id="L_PUSH_HEAD_PROGRESS" ver="12">Aggiornamento Progresso</t>
-  <t id="L_PROGRESS_EVERY" ver="12">Progresso ogni</t>
-  <t id="L_POSITION_OBJECT" ver="12">Posizione oggetto</t>
-  <t id="L_OBJECTS_CHANGED" ver="12">La posizione degli oggetti e' cambiata dall'ultimo slice. Avviare comunque il lavoro?</t>
-  <t id="H_SKIN_SPEED" ver="13">Velocità per il riempimento completo esterno. Ti permette di fare più velocemente riempimento interno senza diminuire la qualità superficie esterna.</t>
-  <t id="L_SKIN_INFILL:" ver="13">Skin Infill:</t>
-  <t id="L_NEVER" ver="13">Mai</t>
-  <t id="L_ALWAYS" ver="13">Sempre</t>
-  <t id="L_ONLY_SKIN" ver="13">Sempre eccetto skin</t>
-  <t id="L_API_KEY:" ver="13">API Key:</t>
-  <t id="H_PS_RS_APIKEY" ver="13">API key globale o una API key di un utente con permessi di stampa.</t>
-  <t id="L_RS_CONNECTION_INFO" ver="13">Permette la connessione diretta a un Repetier-Server eseguito su questo sistema o su uno remoto. Per connettersi, inserire l'indirizzo IP/hostname, la porta e la api key. Potete usare una api key globale o una di un utente esistente con permessi di stampa. La connessione  verrà effettuata al server invece che direttamente alla stampante. Potrete così connettervi o disconnettervi in qualsiasi momento, anche se la stampante sta stampando!</t>
-  <t id="TAB_PRINT" ver="13">Stampa</t>
-  <t id="L_PERIMETER_BEFORE_INFILL" ver="13">Perimetro prima dell'infill</t>
-  <t id="H_PS_PERIMETER_BEFORE_INFILL" ver="13">Definisce se viene stampato prima il perimetro o il riempimento.</t>
-  <t id="L_OFFLINE" ver="13">Offline</t>
-  <t id="L_NO_PORT_ONLINE" ver="13">Nessuna porta disponibile in modalita' autoselect. Per favore prima connetti la tua stampante!</t>
-  <t id="L_TEMPERATURE_REACHED" ver="14">Temperatura raggiunta</t>
-  <t id="L_RS_MINVERSION" ver="14">E' richiesta la versione minima $1 di Repetier-Server per connettersi.</t>
-  <t id="L_NO_PRINTER_SELECTED" ver="14">--- Nessuna stampante selezionata ---</t>
-  <t id="L_OTHER_PRINTER_CONNECTED" ver="14">Sei connesso con un'altra stampante. 
-  Per favore chiudi la connessione prima di continuare.</t>
-  <t id="L_RS_NOAUTH" ver="14">Autorizzazione con il Server fallita. Controlla la tua Api Key.</t>
-  <t id="L_RS_WRONG_IP" ver="14">Impossibile connetersi al server. 
-  Per favore verifica il tuo numero e la tua porta IP e 
-  controlla se il server e' attivato.</t>
-  <t id="TAB_SERVER" ver="14">Server</t>
-  <t id="L_RS_COPY_INFO" ver="14">La maggior parte delle impostazioni sono state estratte dal server e salvati.
-Alcune impostazioni non sono disponibili e quindi sono state lasciate invariate.</t>
-  <t id="L_RS_COPY_CONFIG" ver="14">Copia Server Config Settings</t>
-  <t id="L_SERVER_DISCONNECTED" ver="14">Server disconnesso</t>
-  <t id="L_PRINTER_OFFLINE" ver="14">Stampante Offline</t>
-  <t id="L_PRINTER_DEACTIVATED" ver="14">Stampante disattivata</t>
-  <t id="L_SAVE_TO_SERVER" ver="14">Salva sul server</t>
-  <t id="L_WILL_OVERWRITE_EXISTING" ver="14">Sovrascrivverai il file esistente!</t>
-  <t id="L_RS_NO_UPLOAD_PERMISSION" ver="14">Non hai i permessi di upload!</t>
-  <t id="L_RS_NO_PRINT_PERMISSION" ver="14">Non hai i permessi di stampa!</t>
-  <t id="L_RS_NOPRINTERS" ver="14">Il server non ha una stampante definita. 
-  Non puoi connetterti. Per favore prima definisci
-almeno una stampante e prova di nuovo.</t>
-  <t id="L_INFO" ver="14">Info</t>
-  <t id="T_WAITING_PRINTS">Stampe in attesa</t>
-  <t id="T_STORED_PRINTS">Stampe archiviate</t>
-  <t id="L_TIMES">volte</t>
-  <t id="L_LENGTH">Lunghezza</t>
-  <t id="L_WEIGHT">Peso</t>
-  <t id="L_COST">Costo</t>
-  <t id="L_FILAMENT">Filamento</t>
-  <t id="L_PRINTED">Stampato</t>
-  <t id="L_UPLOADED">Caricato</t>
-  <t id="L_FILE_SIZE">Dimensione file</t>
-  <t id="L_VOLUMETRIC_EXTRUSION">Estrusione volumetrica</t>
-  <t id="L_PER_EXTRUDER_VALUES" ver="14">Per valori estrusore</t>
-  <t id="L_TOTAL_VALUES" ver="14">Valori totali</t>
-  <t id="L_EXTR" ver="14">Estr.</t>
-  <t id="L_TOTAL_PRICE:" ver="14">Prezzo totale:</t>
-  <t id="L_SCRIPTS" ver="14">Scripts</t>
-  <t id="L_SCRIPT" ver="14">Script</t>
-  <t id="B_SAVE_FOR_SD_PRINT" ver="14">Salva per stampa da SD</t>
-  <t id="L_PRINT_PREVIEW" ver="14">Anteprima Stampa</t>
-  <t id="TAB_SEARCH" ver="14">Cerca</t>
-  <t id="L_SEARCHTERM" ver="14">Cerca:</t>
-  <t id="L_REPLACETERM" ver="14">Sostituisci:</t>
-  <t id="B_SEARCH" ver="14">Cerca</t>
-  <t id="B_REPLACE_SEARCH" ver="14">Sostituisci &amp;&amp; Cerca</t>
-  <t id="B_REPLACE" ver="14">Sostituisci</t>
-  <t id="L_SAVE_TO_FILE" ver="14">Salva su file</t>
-  <t id="L_EDIT_GCODE" ver="14">Modifica G-Code</t>
-  <t id="TAB_GCODE_SYNTAX" ver="14">Sintassi G-Code</t>
-  <t id="M_USING_REPETIER_SERVER" ver="14">Usare Repetier-Server</t>
-  <t id="M_REPETIER_SERVER_MANUAL" ver="14">Manuale Repetier-Server</t>
-  <t id="M_START_SERVER" ver="14">Avvia Server Locale</t>
-  <t id="M_STOP_SERVER" ver="14">Ferma Server Locale</t>
-  <t id="M_OPEN_SERVER_FRONTEND" ver="14">Apri Server Frontend</t>
-  <t id="L_VIEW_CROSS_SECTION" ver="14">Vista in sezione trasversale</t>
-  <t id="M_SERVER" ver="14">Server</t>
-  <t id="L_AUTO_ZOOM_OBJECTS" ver="14">Zoom automatico sugli oggetti</t>
-  <t id="L_AUTO_POSITION_OBJECTS" ver="14">Auto-posiziona oggetto quando ne viene aggiunto uno nuovo</t>
-  <t id="L_TRAVEL_ACCELERATION" ver="14">Accellerazione di spostamento</t>
-  <t id="L_CONNECT_TO_CONTINUE" ver="14">Connetti per continuare</t>
-  <t id="L_ZOOM_SPEED_FACTOR" ver="14"> Fattore di velocita' zoom</t>
-  <t id="L_WARN_JOB_RUNNING_CLOSE" ver="14">Attenzione hai un lavoro in corso. Chiudendo la connessione rovinerai la tua stampa. Vuoi proseguire comunque?</t>
-  <t id="M_SAVE_GCODE_SERVER" ver="14">Salva G-Code nel Server</t>
-  <t id="L_SAVE_GCODE_AS" ver="14">Salva G-Code come...</t>
-  <t id="L_WILL_OVERWRITE_EXISTING_FILE" ver="14">Sovrascriverai il file esistente!</t>
-  <t id="L_FLIP_X_Y" ver="15">Inverti X e Y</t>
-  <t id="H_FLIP_X_Y" ver="15">Inverti i tasti per i movimenti x e y nel Controllo Manuale.</t>
-  <t id="L_SHOW" ver="15">Mostra</t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">Avviso: Si dispone di un'installazione Repetier-Server. Si raccomanda di usare il connessione Repetier-Server invece. Fai clic su "Aiuto" per maggiori informazioni.</t>
-  <t id="L_PRINTER_ERRORS" ver="17">Errori stampante</t>
-  <t id="L_PRINT_TIME" ver="18">Tempo stampa</t>
-  <t id="L_GROUP" ver="18">Gruppo</t>
-  <t id="L_ADD_GROUP" ver="18">Aggiungi Gruppo</t>
-  <t id="L_DELETE_GROUP_X" ver="18">Cancella Gruppo $1</t>
-  <t id="L_DELETE_GROUP" ver="18">Cancella Gruppo</t>
-  <t id="L_DEL_GROUP_MOVE" ver="18">Cancella Gruppo, muovi file a predefinito</t>
-  <t id="L_DEL_GROUP_DEL" ver="18">Cancella Gruppo e files inclusi</t>
-  <t id="L_REPAIR_IN_PROGRESS" ver="18">Un processo di riparazione è ancora in corso. Riprova quando sarà terminato.</t>
-  <t id="L_NOT_MANIFOLD_INFO_LR" ver="18">L'oggetto non e'manifold. Essenzialmente non e' a tenuta stagna. QUesto crea problemi durante lo slicing, dando risultati inattesi. Raccomandiamo di riparare la geometria.</t>
-  <t id="L_REPAIRING..." ver="18">Riparazione in corso ...</t>
-  <t id="L_WEBCAM" ver="18">Webcam</t>
-  <t id="L_FILAMENT_EXTR_X" ver="18">Estrusore .$1:</t>
-  <t id="L_WIPE_NOZZLE_PRIME" ver="18">Pulisci ugello sulla torre</t>
-  <t id="L_PRIME_POS_X" ver="18">Posizione X torre:</t>
-  <t id="L_PRIME_POS_Y" ver="18">Posizione Y torre:</t>
-  <t id="L_SHOW_PRINTER_MODEL" ver="18">Mostra modello stampante</t>
-  <t id="L_HIDE_PRINTERMODEL_BOTTOM" ver="18">Nascondi se visto dal fondo</t>
-  <t id="L_SHUTDOWN_QUESTION" ver="18">Questa opzione spegne il PC dopo 5 minuti dal termine della stampa.Altri programmi in esecuzione potrebbero impedire l'arresto. Questa funzione viene disabilitata al prossimo avvio</t>
-  <t id="M_SHUTDOWN_WINDOWS" ver="18">Spegni PC/Windows a fine stampa</t>
-  <t id="L_ENABLE_LAYERHEIGHT_EDITOR" ver="18">Abilita editor layer altezza variabile</t>
-  <t id="L_USE_VARIABLE_LAYER_HEIGHTS" ver="18">Usa layer altezza variabile</t>
-  <t id="L_MIN_LAYER_HEIGHT" ver="18">Min. altezza layer:</t>
-  <t id="L_MAX_LAYER_HEIGHT" ver="18">Max. altezza layer:</t>
-  <t id="L_CURRENT_Z" ver="18">Z attuale:</t>
-  <t id="L_LAYER_HEIGHT_SET" ver="18">Altezza layer impostata:</t>
-  <t id="L_LAYER_HEIGHT_MOUSE" ver="18">Altezza layer mouse:</t>
-  <t id="L_LAYER_INFLUENCE_HEIGHT" ver="18">Altezza influenza:</t>
-  <t id="L_RESET_LAYER_HEIGHTS" ver="18">Reset altezze</t>
-  <t id="L_PRESERVE_LAYERHEIGHT" ver="18">Cerca di mantenere la posizione oggetto</t>
-  <t id="L_PRESERVE_LAYERHEIGHT_A" ver="18">Altezza layer variabile e slicing per oggetto non possibile!</t>
-  <t id="L_PRESERVE_LAYERHEIGHT_B" ver="18">Slicing per oggetto non possibile!</t>
-  <t id="L_SLIC3R_LAYER_INFO" ver="18">Per favore disabilita la spunta 'Cerca di mantenere la posizione oggetto' per usare layer variabili. Preserva la posizione di un singolo oggetto, ma Slic3r riposizionerà oggetti multipli.</t>
-  <t id="L_REPAIR_FAILED" ver="18">Riparazione fallita. Mantenimento vecchia copia.</t>
-  <t id="L_NUM_FANS" ver="18">Numero ventole:</t>
-  <t id="L_SAVING___" ver="18">Salvataggio...</t>
-  <t id="L_AUTOCONNECT_ON_STARTUP">Autoconnessione allo startup se possibile </t>
-  <t id="L_FILAMENTCHANGE_REQUIRED">Richiesto cambio filo.</t>
-  <t id="L_VELOCITY_PAINTING" ver="18">Velocity Painting</t>
-  <t id="L_LOAD_IMAGE" ver="18">Carica immagine</t>
-  <t id="L_INVERT_IMAGE" ver="18">Inverti immagine</t>
-  <t id="L_ROTATE_IMAGE" ver="18">Ruota immagine</t>
-  <t id="L_TRIGGER_SPEED:" ver="18">Velocità soglia:</t>
-  <t id="L_LOW_SPEED:" ver="18">Bassa velocità:</t>
-  <t id="L_HIGH_SPEED:" ver="18">Alta velocità:</t>
-  <t id="L_VEL_SPEED_INFO" ver="18">Solo le estrusioni con 'Velocità soglia' vengono convertite. Le parti in nero sono a bassa velocità, le parti in bianco ad alta velocità.</t>
-  <t id="L_IMAGE_SCALING" ver="18">Ridimensiona immagine</t>
-  <t id="L_VEL_SCALING_INFO" ver="18">Formato immagine per la proiezione.</t>
-  <t id="L_WIDTH:" ver="18">Larghezza:</t>
-  <t id="L_HEIGHT:" ver="18">Altezza:</t>
-  <t id="L_PROJECTION" ver="18">Proiezione</t>
-  <t id="L_PROJECTION_METHOD" ver="18">Metodo proiezione:</t>
-  <t id="L_XCENTER:" ver="18">Centro X:</t>
-  <t id="L_YCENTER:" ver="18">Centro Y:</t>
-  <t id="L_ZCENTER:" ver="18">Centro Z:</t>
-  <t id="L_VEL_PROJECTION_INFO" ver="18">Il centro definisce l'origine di proiezione. Per proiezione piane sono usati solo due valori.Proiezioni cilindriche e sferiche marcano il centro del cilindro rispetto alla sfera. </t>
-  <t id="L_GUESS_FROM_PROJECTION" ver="18">Ricava dal metodo proiezione</t>
-  <t id="L_GENERATE_VELOCITY" ver="18">Genera Velocity Painting</t>
-  <t id="L_TUTORIAL" ver="18">Tutorial</t>
-  <t id="L_IMAGE_PREVIEW" ver="18">Anteprima immagine</t>
-  <t id="L_VEL_PROJ0" ver="18">Proiezione cilindrica</t>
-  <t id="L_VEL_PROJ1" ver="18">Proietta su piano X-Z</t>
-  <t id="L_VEL_PROJ2" ver="18">Proietta su piano Y-Z</t>
-  <t id="L_VEL_PROJ3" ver="18">Proietta su piano X-Y</t>
-  <t id="L_VEL_PROJ4" ver="18">Proiezione sferica</t>
-  <t id="L_PRINT_SPEEDS" ver="18">Velocità di stampa</t>
-  <t id="L_PROVIDE_IMAGE_FIRST" ver="18">Devi prima caricare una immagine!</t>
-  <t id="L_SLICE_FIRST" var="18">Effettua prima uno slicing!</t>
-  <t id="L_SUGGESTIONS_BASED_ON" ver="18">I suggerimenti sono bassati sul modello posizionato assumendo che il risultato dello slicing sia nella stessa posizione. Hai più oggetti sul piatto!</t>
-  <t id="L_FILAMENTJAM_DETECTED" ver="18">Rilevato intasamento ugello. Controlla la tua stampante.</t>
 </translation>
 

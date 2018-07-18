@@ -76,10 +76,10 @@
   <t id="M_PAUSE_JOB" ver="11">Pausiere Druck</t>
   <t id="M_KILL_JOB" ver="11">Stoppe Druck</t>
   <t id="M_SD_CARD" ver="1">SD-Karte</t>
-  <t id="M_TOGGLE_LOG" ver="1">Log</t>
-  <t id="M_SHOW_FILAMENT" ver="1">Filament</t>
-  <t id="M_HIDE_FILAMENT" ver="1">Filament</t>
-  <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Filamentanzeige ausgeschaltet</t>
+  <t id="M_TOGGLE_LOG" ver="1">Wechsle Log</t>
+  <t id="M_SHOW_FILAMENT" ver="1">Zeige Filament</t>
+  <t id="M_HIDE_FILAMENT" ver="1">Verberge Filament</t>
+  <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Filamentanziege ausgeschaltet</t>
   <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Filamentanzeige eingeschaltet</t>
   <t id="L_LOAD_FILE" ver="1">Lade Datei</t>
   <t id="L_IMPORT_G_CODE" ver="1">Importiere G-Code</t>
@@ -146,7 +146,7 @@
   <t id="L_PRINT_JOB_PAUSED" ver="1">Druckjob pausiert</t>
   <t id="L_PRINT_JOB_FINISHED" ver="1">Druckjob beendet</t>
   <t id="L_UPLOADING..." ver="1">Hochladen ... $1%</t>
-  <t id="L_PRINTING_JOB_ETA" ver="1">Druckjob Ende um $1</t>
+  <t id="L_PRINTING_JOB_ETA" ver="1">Druckjob Ende in $1</t>
   <t id="L_IDLE" ver="1">Leerlauf</t>
   <t id="L_X_COMMANDS_WAITING" ver="1">$1 Befehle warten</t>
   <t id="L_EXTRUDER:" ver="1">Extruder:</t>
@@ -157,7 +157,7 @@
   <t id="L_NOT_AN_INTEGER" ver="1">Keine ganze Zahl</t>
   <t id="L_RESET_OUTPUT" ver="1">Ausgabe zurückgesetzt. Nach einigem warten bekam ich nur $1</t>
   <t id="L_RECEIVING_ONLY_ERRORS" ver="1">Empfange nur Fehlermeldungen. Verbindung getrennt.</t>
-  <t id="L_PRINTING..ETA" ver="1">Drucke...Ende um $1</t>
+  <t id="L_PRINTING..ETA" ver="1">Drucke...Ende in $1</t>
   <t id="L_LAYER_X/Y" ver="1"> Layer $1/$2</t>
   <t id="L_ERROR_SENDING_DATA:" ver="1">Sendefehler:</t>
   <t id="L_CONNECTION_ERROR" ver="1">Verbindungsfehler</t>
@@ -211,7 +211,7 @@
   <t id="L_DUMP_AREA_FRONT" ver="1">Vorderkante Abladeplatz:</t>
   <t id="L_DUMP_AREA_LEFT" ver="1">Linke Seite Abladeplatz:</t>
   <t id="L_DUMP_AREA_WIDTH" ver="1">Breite Abladeplatz:</t>
-  <t id="L_FILTER_INFO" ver="1">Sie können nach jedem Slicing ein Programm mit dem erzeugten G-Code laufen lassen. Verwenden sie #in und #out, um den Eingabe und Ausgabe-Dateiname als Parameter einzufügen.</t>
+  <t id="L_FILTER_INFO" ver="1">Sie können nach jedem Slicing ein Programm mit dem erzeugten G-Code laufen lassen. Verwendien sie #in und #out, um den Eingabe und Ausgabe-Dateiname als Parameter einzufügen.</t>
   <t id="L_FILTER_PATH_PARAM" ver="11">Filter Pfad und Parameter:</t>
   <t id="L_PARITY" ver="1">Parity:</t>
   <t id="L_PARK_POSITION" ver="1">Parkposition:</t>
@@ -219,9 +219,10 @@
   <t id="L_PRINT_AREA_DEPTH" ver="1">Tiefe Druckbereich:</t>
   <t id="L_PRINT_AREA_HEIGHT" ver="1">Höhe Druckbereich:</t>
   <t id="L_PRINT_AREA_WIDTH" ver="1">Breite Druckbereich:</t>
+  <t id="L_PRINTER" ver="1">Drucker:</t>
   <t id="L_RECEIVE_CACHE_SIZE" ver="1">Empfänger Cachegröße:</t>
   <t id="L_STOPBITS" ver="1">Stoppbits:</t>
-  <t id="L_TRANSFER_PROTOCOL" ver="1">Transferprotokoll:</t>
+  <t id="L_TRANSFER_PROTOCOL" ver="1">Transferprotokol:</t>
   <t id="L_TRAVEL_FEED_RATE" ver="1">Reisegeschwindigkeit:</t>
   <t id="L_ZFEED_RATE" ver="1">Z-Achse Geschwindigkeit:</t>
   <t id="L_DISABLE_EXTRUDER_AFTER_JOB" ver="1">Extruder nach Job/Beenden ausschalten</t>
@@ -496,9 +497,9 @@
   <t id="L_UPLOADING_TIME" ver="4">Zeit zum hochladen: $1</t>
   <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
   <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Bewegungsdarstellung ausgeschaltet</t>
-  <t id="M_HIDE_TRAVEL" ver="4">Bewegungen</t>
+  <t id="M_HIDE_TRAVEL" ver="4">Verberge Bewegungen</t>
   <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Bewegungsdarstellung ausgeschaltet</t>
-  <t id="M_SHOW_TRAVEL" ver="4">Bewegungen</t>
+  <t id="M_SHOW_TRAVEL" ver="4">Zeige Bewegungen</t>
   <t id="L_TRAVEL_MOVES:" ver="4">Bewegungen:</t>
   <t id="L_DISABLE_TRAVEL_MOVES_VIS">Schalte Bewegungsdarstellung aus</t>
   <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Anzahl Extruder:</t>
@@ -521,7 +522,7 @@
   <t id="L_ROSTOCK_CIRCLE" ver="6">Rostock Drucker (runder Druckbereich)</t>
   <t id="L_CORRECT_NORMALS" ver="7">Korrekte Normalen nutzen (sieht besser aus, benötigt mehr Speicher)</t>
   <t id="L_WARNING" ver="8">Warnung</t>
-  <t id="L_HEATERS_ON_QUEST" ver="8">Einige Heizelemente sind immer noch an. Soll ich sie ausschalten?</t>
+  <t id="L_HEATERS_ON_QUEST" ver="8">Einige Heizlemente sind immer noch an. Soll ich sie ausschalten?</t>
   <t id="L_OBJECTS_OUTSIDE_SLICE_QUEST" ver="8">Mindestens ein Objekt liegt außerhalb des Druckbereichs. Slicen abbrechen?</t>
   <t id="L_CNC_ROUTER" ver="8">CNC Fräße</t>
   <t id="L_SLIC3R_VERSION" ver="8">Slic3r Version</t>
@@ -569,6 +570,7 @@
   <t id="L_TOOTH_COUNT_MUST_INT" ver="9">Zahnzahl muss integer sein</t>
   <t id="L_LEADSCREW_PITCH" ver="9">Spindelsteigung</t>
   <t id="L_GEAR_RATIO" ver="9">Getriebeverhältnis</t>
+  <t id="L_REPETIER_SERVER_CONNECTION" ver="9">Repetier-Server</t>
   <t id="L_CONNECTOR" ver="9">Verbindung</t>
   <t id="L_DISABLED" ver="9">Ausgeschaltet</t>
   <t id="L_DTR_LOW_HIGH" ver="9">DTR an->aus</t>
@@ -607,8 +609,8 @@
   <t id="L_FIXING_NORMALS" ver="9">Repariere Normalen</t>
   <t id="L_ANA_FIXED_COLLINEAR_TRIANGLES" ver="9">Reparierte kollineare Dreiecke:</t>
   <t id="L_ANA_CORRECTED_NORMAL_ORIENTATIONS" ver="9">Reparierte Normalenausrichtungen:</t>
-  <t id="L_OBJECT_IS_MANIFOLD" ver="9">Objekt ist geschlossen.</t>
-  <t id="L_OBJECT_IS_NON_MANIFOLD" ver="9">Objekt ist nicht geschlossen. Slicen kann falsche Ergebnisse erzeugen. Bitte reparieren Sie das Objekt zuerst.</t>
+  <t id="L_OBJECT_IS_MANIFOLD" ver="9">Objekt ist mannigfaltig.</t>
+  <t id="L_OBJECT_IS_NON_MANIFOLD" ver="9">Objekt ist nicht mannigfaltig. Slicen kann falsche Ergebnisse erzeugen. Bitte reparieren Sie das Objekt zuerst.</t>
   <t id="L_SHOW_COMPASS" ver="9">Zeige Kompass</t>
   <t id="L_CONFIRM_DELETE_JOB" ver="10">Are you sure you want to delete job $1?</t>
   <t id="L_PRINT_STATE_SAVED_SUCCESSFULLY" ver="10">State was saved successfully</t>
@@ -656,8 +658,7 @@
   <t id="OBJECTS_ARE_IN_FOOT" ver="10">Objekte sind in Fuß</t>
   <t id="OBJECTS_ARE_IN_METER" ver="10">Objekte sind in Meter</t>
   <t id="B_RESET" ver="10">Zurücksetzen</t>
-  <t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition ist ein eigenständiges, externes Programm, welches auch unabhängig gestartet werden kann. Für weitere Informationen zu diesem Programm besuchen Sie folgende Webseite: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r ist ein eigenständiges, externes Programm, welches auch unabhängig gestartet werden kann. Für weitere Informationen zu diesem Programm besuchen Sie folgende Webseite: http://slic3r.org</t>
+  <t id="L_SLIC3R_INFO2" ver="10">Slic3r ist ein eigenständiges, externes Programm, welches auch unabhängig gestartet werden kann. Für weitere Informationen zu diesem Programm besuchen Sie folgende Webseite: http://www.slic3r.org</t>
   <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge ist ein eigenständiges, externes Programm, welches auch unabhängig gestartet werden kann. Für weitere Informationen zu diesem Programm besuchen Sie folgende Webseite: http://fabmetheus.crsndoo.com/</t>
   <t id="L_PRINT_SETTINGS:" ver="10">Druckeinstellung:</t>
   <t id="L_PRINTER_SETTINGS:" ver="10">Druckereinstellung:</t>
@@ -713,7 +714,7 @@
   <t id="L_ENABLE_ANTI_ALIAS" ver="10">Aktiviere Anti-Aliasing wenn möglich (verlangsamt Darstellung, Neustart notwendig)</t>
   <t id="L_MODEL_ERRORS_EDGE:" ver="10">Modelierungsfehler (Kanten):</t>
   <t id="L_CUT_FACES:" ver="10">Schnittkanten:</t>
-  <t id="L_NOT_MANIFOLD_INFO">Das Objekt ist nicht geschlossen. Die bedeutet, es ist nicht wasserdicht. Beim Slicen ergibt dies normalerweise unerwünschte Ergebnisse. Wir raten dringend, die Datei zu reparieren. Ein kostenloser Reparier-Service ist: https://tools3d.azurewebsites.net </t>
+  <t id="L_NOT_MANIFOLD_INFO">Das Objekt ist nicht manifold. Die bedeutet, es ist nicht wasserdicht. Beim Slicen ergibt dies normalerweise unerwünschte Ergebnisse. Wir raten dringend, die Datei zu reparieren. Ein kostenloser Reparier-Service ist: https://netfabb.azurewebsites.net </t>
   <t id="L_EXPERT_MODE" ver="11">Expertenmodus</t>
   <t id="L_CURAENGINE_EXECUTABLE" ver="11">CuraEngine-Software</t>
   <t id="L_CURAENGINE_INFO" ver="11">CuraEngine ist ein separates, externes Programm, welches von David Braam entwickelt wurde. Für weitere Informationen besuchen Sie bitte https://www.ultimaker.com.</t>
@@ -760,7 +761,7 @@
   <t id="L_ASSIGNED_EXTRUDER:" ver="11">Zugewiesener Extruder:</t>
   <t id="L_ASSIGNED_OBJECT:" ver="11">Zugewiesenes Objekt:</t>
   <t id="L_EXTRACT_FROM_GROUP" ver="11">Extrahiere aus der Gruppe</t>
-  <t id="L_SHOW_PLATER" ver="11">Zeige Platte innerhalb von Slic3r</t>
+  <t id="L_SHOW_PLATER" ver="11">Zeiger Plater innerhalb von Slic3r</t>
   <t id="L_PRINT" ver="11">Drucken</t>
   <t id="L_SPEED_AND_QUALITY" ver="11">Geschwindigkeit und Qualität</t>
   <t id="L_EXTRUSION" ver="11">Extrusion</t>
@@ -1091,6 +1092,14 @@
     ist, wird immer der direkte Weg genommen und Fäden
     entstehen können.
   </t>
+  <t id="H_MINIMUM_EXTRUSION_BEVORE_RETRACT" ver="11">
+    Die Mindestsxtrusionsmenge bevor das Filament
+    erneut zurückgezogen wird. Wenn ein Rückzug
+    benötigt wird, bevor diese Menge erreicht ist,
+    erfolgt kein Rückzug. Wenn zu of an der selben
+    Stelle zurückgezogen wird, kann sich das Filament
+    abreiben und den Extruder blockieren.
+  </t>
   <t id="H_Z_HOP" ver="11">
     Der Druckkopf wird beim Zurückziehen des Filaments
     um diesen Abstand angehoben. Dies wirkt sich
@@ -1381,7 +1390,8 @@
 
   <t id="H_CONTROL_SCRIPTX" ver="11">
     Sendet Skript $1 an den Drucker.
-    Rechtsklick zum Editieren.
+    Unter Vorschau → G-Code-Editor können Sie die
+    Skripte in der Dropdown-Liste einsehen und ändern.
   </t>
 
   <t id="H_CONTROL_SPEED" ver="11">
@@ -1745,199 +1755,5 @@
   <t id="L_INFORMER_URL_INFO" ver="12">Fügt obigen link zu jeder Nachricht hinzu, z.B. eine webcam url.</t>
   <t id="L_PUSH_SD_STARTED" ver="12">Druck über SD-Karte auf Drucker $1 gestartet.</t>
   <t id="L_PUSH_SD_FINISHED" ver="12">Druck über SD-Karte auf Drucker $1 beendet.</t>
-  <t id="L_FIRST_LAYER_EXTRUSION_WIDTH:" ver="12">Extrusionsbreite erste Lage:</t>
-  <t id="H_FIRST_LAYER_EXTRUSION_WIDTH" ver="12">
-    Für eine bessere Haftung am Druckbett ist es oft vorteilhaft, 
-    beim ersten Layer mehr Filament zu extrudieren und dadurch breiter
-    zu werden. Hier stellen Sie ein, wie viel breiter die Grundlinien
-    im Vergleich zur üblichen Extrusion sind. Die Liniendichte wird
-    entsprechend angepasst. </t>
-  <t id="L_MIRROR_OBJECT" ver="12">Objekt spiegeln</t>
-  <t id="L_X_HOURS" ver="12">$1 Stunden</t>
-  <t id="L_PUSH_MSG_PROGRESS" ver="12">Der Druck auf $1 wird fertig gegen $2.</t>
-  <t id="L_PUSH_MSG_PROGRESS_SD" ver="12">Der Druck auf $1 ist zu $2% fertiggestellt.</t>
-  <t id="L_PUSH_HEAD_PROGRESS" ver="12">Fortschrittsbericht</t>
-  <t id="L_PROGRESS_EVERY" ver="12">Fortschritt alle</t>
-  <t id="L_POSITION_OBJECT" ver="12">Positioniere Objekt</t>
-  <t id="L_OBJECTS_CHANGED" ver="12">Die Objektanordnung hat sich seit dem letzten Slicen geändert. Druckjob wirklich starten?</t>
-  <t id="H_SKIN_SPEED" ver="13">Geschwindigkeit für äußeren Füllung. Dies erlaubt schnellere Geschwindigkeiten für den internen Füllung, ohne die sichtbare Qualität zu verschlechtern.</t>
-  <t id="L_SKIN_INFILL:" ver="13">Außere Füllung:</t>
-  <t id="L_NEVER" ver="13">Nie</t>
-  <t id="L_ALWAYS" ver="13">Immer</t>
-  <t id="L_ONLY_SKIN" ver="13">Immer außer für Außenhülle</t>
-  <t id="L_REPETIER_SERVER_CONNECTION" ver="13">Repetier-Server</t>
-  <t id="L_API_KEY:" ver="13">Api-Schlüssel:</t>
-  <t id="H_PS_RS_APIKEY" ver="13">Globaler API-Schlüssel oder Benutzer API-Schlüssel mit Druckrechten.</t>
-  <t id="L_RS_CONNECTION_INFO" ver="13">Diese Verbindung erlaubt eine direkte Verbindung mit einer laufenden Repetier-Server Instanz auf diesem oder einem erreichbaren Computer. Zum verbinden geben Sie sowohl IP-Nummer/Hostname und Port sowie den API-Schlüssel des Servers ein. Sie können den globalen API-Schlüssel oder den eines Users mit Druckrechten verwenden. Verbinden stellt dann eine Verbindung zum Server her, anstatt einer direkten Verbindung zum Drucker. Sie können sich jederzeit verbinden und wieder trennen, sogar während des Drucks!</t>
-  <t id="TAB_PRINT" ver="13">Drucken</t>
-  <t id="L_PERIMETER_BEFORE_INFILL" ver="13">Umrandung vor Füllung</t>
-  <t id="H_PS_PERIMETER_BEFORE_INFILL" ver="13">Definiert, ob zuerst die Umrandung oder die Füllung gedruckt wird.</t>
-  <t id="L_OFFLINE" ver="13">Offline</t>
-  <t id="L_NO_PORT_ONLINE" ver="13">Kein Port für automatische Auswahl verfügbar. Bitte verbinden Sie zuerst den Drucker!</t>
-  <t id="L_TEMPERATURE_REACHED" ver="14">Temperatur Erreicht</t>
-  <t id="L_RS_MINVERSION" ver="14">Sie benötigen mindestens Version $1 des Servers um sich zu verbinden.</t>
-  <t id="L_NO_PRINTER_SELECTED" ver="14">--- Kein Drucker Ausgewählt ---</t>
-  <t id="L_OTHER_PRINTER_CONNECTED" ver="14">Sie sind bereits mit einem anderen Drucker verbunden.
-  Bitte schließen Sie zuerst diese Verbindung um fortzufahren.</t>
-  <t id="L_RS_NOAUTH" ver="14">Authorisierung mit dem Server fehlgeschlagen. Bitte prüfen Sie Ihren API Schlüssel.</t>
-  <t id="L_RS_WRONG_IP" ver="14">Konnte mich nicht mit dem Server verbinden. 
-  Bitte prüfen Sie IP-Nummer und Port und ob der Server eingeschaltet ist.</t>
-  <t id="TAB_SERVER" ver="14">Server</t>
-  <t id="L_RS_COPY_INFO" ver="14">
-    Die meisten Einstellungen wurden vom Server geholt und gespeichert.
-    Einige Einstellungen sind nicht verfügbar und blieben ungeändert.
-  </t>
-  <t id="L_RS_COPY_CONFIG" ver="14">Kopiere Servereinstellungen</t>
-  <t id="L_SERVER_DISCONNECTED" ver="14">Server Trennen</t>
-  <t id="L_PRINTER_OFFLINE" ver="14">Drucker Offline</t>
-  <t id="L_PRINTER_DEACTIVATED" ver="14">Drucker deaktiviert</t>
-  <t id="L_SAVE_TO_SERVER" ver="14">Auf dem Server speichern</t>
-  <t id="L_WILL_OVERWRITE_EXISTING" ver="14">Wird existierende Datei überschreiben!</t>
-  <t id="L_RS_NO_UPLOAD_PERMISSION" ver="14">Sie haben keine Berechtigung zum Hochladen!</t>
-  <t id="L_RS_NO_PRINT_PERMISSION" ver="14">Sie haben keine Berechtigung zum Drucken!</t>
-  <t id="L_RS_NOPRINTERS" ver="14">
-    Server hat keine definierten Drucker.
-    Kann nicht verbinden. Bitte definieren Sie
-    zuerst einen Drucker und versuchen es erneut.
-  </t>
-  <t id="L_INFO" ver="14">Info</t>
-  <t id="T_WAITING_PRINTS">Ausstehende Drucke</t>
-  <t id="T_STORED_PRINTS">Gespeicherte Drucke</t>
-  <t id="L_TIMES">mal</t>
-  <t id="L_LENGTH">Länge</t>
-  <t id="L_WEIGHT">Gewicht</t>
-  <t id="L_COST">Kosten</t>
-  <t id="L_FILAMENT">Filament</t>
-  <t id="L_PRINTED">Gedruckt</t>
-  <t id="L_UPLOADED">Hochgeladen</t>
-  <t id="L_FILE_SIZE">Dateilänge</t>
-  <t id="L_VOLUMETRIC_EXTRUSION">Volumetrische Extrusion</t>
-  <t id="L_PER_EXTRUDER_VALUES" ver="14">Werte pro Extruder</t>
-  <t id="L_TOTAL_VALUES" ver="14">Gesamtwerte</t>
-  <t id="L_EXTR" ver="14">Extr.</t>
-  <t id="L_TOTAL_PRICE:">Gesamtpreis:</t>
-  <t id="L_SCRIPTS" ver="14">Skripte</t>
-  <t id="L_SCRIPT" ver="14">Skript</t>
-  <t id="B_SAVE_FOR_SD_PRINT" ver="14">Speichere für SD Druck</t>
-  <t id="L_PRINT_PREVIEW" ver="14">Druckvorschau</t>
-  <t id="TAB_SEARCH" ver="14">Suchen</t>
-  <t id="L_SEARCHTERM" ver="14">Suchbegriff:</t>
-  <t id="L_REPLACETERM" ver="14">Ersetzen durch:</t>
-  <t id="B_SEARCH" ver="14">Suchen</t>
-  <t id="B_REPLACE_SEARCH" ver="14">Ersetzen &amp;&amp; Suchen</t>
-  <t id="B_REPLACE" ver="14">Ersetzen</t>
-  <t id="L_SAVE_TO_FILE" ver="14">Als Datei speichern</t>
-  <t id="L_EDIT_GCODE" ver="14">G-Code bearbeiten</t>
-  <t id="TAB_GCODE_SYNTAX" ver="14">G-Code Syntax</t>
-  <t id="M_USING_REPETIER_SERVER" ver="14">Repetier-Server verwenden</t>
-  <t id="M_REPETIER_SERVER_MANUAL" ver="14">Repetier-Server Anleitung</t>
-  <t id="M_START_SERVER" ver="14">Starte lokalen Server</t>
-  <t id="M_STOP_SERVER" ver="14">Stoppe lokalen Server</t>
-  <t id="M_OPEN_SERVER_FRONTEND" ver="14">Öffne Server Startseite</t>
-  <t id="L_VIEW_CROSS_SECTION" ver="14">Zeige Querschnitt</t>
-  <t id="M_SERVER" ver="14">Server</t>
-  <t id="L_AUTO_ZOOM_OBJECTS" ver="14">Autozoom auf Objekte</t>
-  <t id="L_AUTO_POSITION_OBJECTS" ver="14">Objekte bei neuen Objekten automatisch Positionieren</t>
-  <t id="L_TRAVEL_ACCELERATION" ver="14">Reisebeschleunigung</t>
-  <t id="L_CONNECT_TO_CONTINUE" ver="14">Verbinden zum Fortfahren</t>
-  <t id="L_ZOOM_SPEED_FACTOR" ver="14">Zoom Geschwindigkeitsfaktor</t>
-  <t id="L_WARN_JOB_RUNNING_CLOSE" ver="14">Sie haben noch einen laufenden Druckauftrag. Das schließen der Verbindung wird den Druck zerstören. Dennoch schließen?</t>
-  <t id="M_SAVE_GCODE_SERVER" ver="14">Speichere G-Code auf Server</t>
-  <t id="L_SAVE_GCODE_AS" ver="14">Speichere G-Code als</t>
-  <t id="L_WILL_OVERWRITE_EXISTING_FILE" ver="14">Existierende Datei wird überschrieben!</t>
-  <t id="L_FLIP_X_Y" ver="15">Tausche X und Y</t>
-  <t id="H_FLIP_X_Y" ver="15">Tauscht die Knöpfe für x und y Bewegungen in der manuellen Kontrolle.</t>
-  <t id="L_SHOW" ver="15">Zeigen</t>
-  <t id="L_PRINTER" ver="16">Drucker:</t>
-  <t id="L_COLOR" ver="16">Farbe</t>
-  <t id="L_MANAGER" ver="16">Manager</t>
-  <t id="L_PROGRESS" ver="16">Fortschritt</t>
-  <t id="L_COMMUNICATION_TIMEOUT" ver="16">Kommunikationstimeout</t>
-  <t id="L_EASY_MODE" ver="16">Vereinfacht</t>
-  <t id="L_FATAL_ERROR" ver="16">Fataler Fehler</t>
-  <t id="L_FATAL_ERROR_INFO" ver="16">Ein fataler Fehler im Drucker veranlaste den Drucker alles zu stoppen bis der Fehler behoben ist. Nachricht des Drucker:</t>
-  <t id="E_SENSOR_DEFECT" ver="17">Temperatursensor defekt</t>
-  <t id="E_DECOUPLED" ver="17">Temp. Sensor und Heizelement entkoppelt</t>
-  <t id="E_SLIPPING" ver="17">Filament rutscht</t>
-  <t id="E_JAMMED" ver="17">Extruder ist blockiert</t>
-  <t id="E_JAMMED_OR_NO_FILAMENT" ver="17">Extruder blockiert oder kein Filament</t>
-  <t id="E_OUT_OF_FILAMENT" ver="17">Kein Filament mehr</t>
-  <t id="E_UNKNOWN_ERROR" ver="17">Unbekannter Fehler</t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">Hinweis: Sie haben eine Repetier-Server-Installation. Wir empfehlen dringend Repetier-Server als Verbingungsart zu nutzen. Klicken Sie auf "Hilfe" für weitere Informationen. </t>
-  <t id="L_PRINTER_ERRORS" ver="17">Fehler am Drucker</t>
-  <t id="L_PRINT_TIME" ver="18">Druckzeit</t>
-  <t id="L_GROUP" ver="18">Gruppe</t>
-  <t id="L_ADD_GROUP" ver="18">Neue Gruppe</t>
-  <t id="L_DELETE_GROUP_X" ver="18">Lösche Gruppe $1</t>
-  <t id="L_DELETE_GROUP" ver="18">Lösche Gruppe</t>
-  <t id="L_DEL_GROUP_MOVE" ver="18">Gruppe Löschen, Dateien nach Default verschieben</t>
-  <t id="L_DEL_GROUP_DEL" ver="18">Gruppe und enthaltene Dateien löschen</t>
-  <t id="L_REPAIR_IN_PROGRESS" ver="18">Es ist bereits eine Reperatur im gange. Bitte erneut versuchen, wenn sie beendet ist.</t>
-  <t id="L_NOT_MANIFOLD_INFO_LR" ver="18">Das Objekt ist nicht geschlossen. Kurz gesagt bedeutet dies, dass es nicht wasserdicht ist. Dies führt für gewöhnlich zu Fehlerm beim Slicen. Wir empfehlen das Model vorher zu reparieren.</t>
-  <t id="L_REPAIRING..." ver="18">Repariere ...</t>
-  <t id="L_WEBCAM" ver="18">Webcam</t>
-  <t id="L_FILAMENT_EXTR_X" ver="18">Filament Extr.$1:</t>
-  <t id="L_WIPE_NOZZLE_PRIME" ver="18">Düse am Spülturm abwischen</t>
-  <t id="L_PRIME_POS_X" ver="18">Spülturmr X Position:</t>
-  <t id="L_PRIME_POS_Y" ver="18">Spülturmr Y Position:</t>
-  <t id="L_SHOW_PRINTER_MODEL" ver="18">Zeige Druckermodell</t>
-  <t id="L_HIDE_PRINTERMODEL_BOTTOM" var="18">Verstecken, wenn von unten betrachtet wird.</t>
-  <t id="L_SHUTDOWN_QUESTION" ver="18">Dies wird WIndows 5 Minuten nach dem Druckende herunterfahren. Andere Software könnte das Herunterfahren unterbinden! Beim nächsten Start ist die Funktion wieder deaktiviert.</t>
-  <t id="M_SHUTDOWN_WINDOWS" ver="18">Windows nach Druckende herunterfahren</t>
-  <t id="L_ENABLE_LAYERHEIGHT_EDITOR" ver="18">Layerhöheneditor aktivieren</t>
-  <t id="L_USE_VARIABLE_LAYER_HEIGHTS" ver="18">Variable Layerhöhen verwenden</t>
-  <t id="L_MIN_LAYER_HEIGHT" ver="18">Min. Layerhöhe:</t>
-  <t id="L_MAX_LAYER_HEIGHT" ver="18">Max. Layerhöhe:</t>
-  <t id="L_CURRENT_Z" ver="18">Aktuelles Z:</t>
-  <t id="L_LAYER_HEIGHT_SET" ver="18">Layerhöhe gesetzt:</t>
-  <t id="L_LAYER_HEIGHT_MOUSE" ver="18">Layerhöhe unter Mauszeiger:</t>
-  <t id="L_LAYER_INFLUENCE_HEIGHT" ver="18">Höhe des Einflußbereichs:</t>
-  <t id="L_RESET_LAYER_HEIGHTS" ver="18">Höhen zurücksetzen</t>
-  <t id="L_PRESERVE_LAYERHEIGHT" ver="18">Versuche Model-Positionen beizubehalten</t>
-  <t id="L_PRESERVE_LAYERHEIGHT_A" ver="18">Variable Layerhöhen und pro Objekt Druck sind dann nicht möglich!</t>
-  <t id="L_PRESERVE_LAYERHEIGHT_B" ver="18">Pro Objekt Druck sind dann nicht möglich!</t>
-  <t id="L_SLIC3R_LAYER_INFO" ver="18">Bitte deaktivieren Sie die 'Versuche Model-Positionen beizubehalten' box, um variable Layerhöhen zu nutzen. Für ein einzelnes Objekt wird die Position weiterhin gehalten, nur bei mehreren Objekten wird Slic3r die Objekte selbst positionieren.</t>
-  <t id="L_REPAIR_FAILED" ver="18">Reperatur fehlgeschlagen. Originalversion wird beibehalten.</t>
-  <t id="L_NUM_FANS" ver="18">Anzahl Lüfter:</t>
-  <t id="L_SAVING___" ver="18">Speichere...</t>
-  <t id="L_AUTOCONNECT_ON_STARTUP">Falls möglich beim Start automatisch verbinden</t>
-  <t id="L_FILAMENTCHANGE_REQUIRED">Filamentwechsel benötigt.</t>
-  <t id="L_VELOCITY_PAINTING" ver="18">Velocity Painting</t>
-  <t id="L_LOAD_IMAGE" ver="18">Bild laden</t>
-  <t id="L_INVERT_IMAGE" ver="18">Bild invertieren</t>
-  <t id="L_ROTATE_IMAGE" ver="18">Bild drehen</t>
-  <t id="L_TRIGGER_SPEED:" ver="18">Trigger Geschwindigkeit:</t>
-  <t id="L_LOW_SPEED:" ver="18">Langsame Geschwindigkeit:</t>
-  <t id="L_HIGH_SPEED:" ver="18">Hohe Geschwindigkeit:</t>
-  <t id="L_VEL_SPEED_INFO" ver="18">Nur Erstrusionen mit der 'Trigger Geschwindigkeit' werden konvertiert. Schwarze Bereiche werden langsam geduckt, weiße Bereiche schnell.</t>
-  <t id="L_IMAGE_SCALING" ver="18">Bildskalierung</t>
-  <t id="L_VEL_SCALING_INFO" ver="18">Größe des Bilder, das für die Projektion verwendet wird.</t>
-  <t id="L_WIDTH:" ver="18">Breite:</t>
-  <t id="L_HEIGHT:" ver="18">Höhe:</t>
-  <t id="L_PROJECTION" ver="18">Projektion</t>
-  <t id="L_PROJECTION_METHOD" ver="18">Projektionsmethode:</t>
-  <t id="L_XCENTER:" ver="18">X Mittelpunkt:</t>
-  <t id="L_YCENTER:" ver="18">Y Mittelpunkt:</t>
-  <t id="L_ZCENTER:" ver="18">Z Mittelpunkt:</t>
-  <t id="L_VEL_PROJECTION_INFO" ver="18">Der Mittelpunkt gibt den Ursprung der Projektion an. Für Ebenenprojektionen werden nur zwei Wert verwendet. Zylindrische und sphärische Projektion markieren den Mittelpunkt des Zylinders der Kugel. </t>
-  <t id="L_GUESS_FROM_PROJECTION" ver="18">Schätze anhand der Projektionsmethode</t>
-  <t id="L_GENERATE_VELOCITY" ver="18">Erstelle Velocity Painting</t>
-  <t id="L_TUTORIAL" ver="18">Tutorial</t>
-  <t id="L_IMAGE_PREVIEW" ver="18">Bildvorschau</t>
-  <t id="L_VEL_PROJ0" ver="18">Zylindrische Projektion</t>
-  <t id="L_VEL_PROJ1" ver="18">Projektion auf X-Z-Ebene</t>
-  <t id="L_VEL_PROJ2" ver="18">Projektion auf Y-Z Ebene</t>
-  <t id="L_VEL_PROJ3" ver="18">Projektion auf X-Y Ebene</t>
-  <t id="L_VEL_PROJ4" ver="18">Sphärische Projektion</t>
-  <t id="L_PRINT_SPEEDS" ver="18">Druckgeschwindigkeiten</t>
-  <t id="L_PROVIDE_IMAGE_FIRST" ver="18">Sie müssen zuerst ein Bild angeben!</t>
-  <t id="L_SLICE_FIRST" var="18">Sie müssen das Objekt erst slicen!</t>
-  <t id="L_SUGGESTIONS_BASED_ON" ver="18">Vorschläge basieren auf dem einen Objekt auf dem Bett unter der Annahme dass das geslicte Objekt sich an der gleichen Position befindet. Sie haben nicht nur ein Objekt auf dem Bett!</t>
-  <t id="L_FILAMENTJAM_DETECTED" ver="18">Filamentblockade entdeckt. Bitte prüfen Sie ihren Drucker.</t>
-  <t id="L_UPD_INFO" ver="19">Die Software wurde aktualisiert und neue Einstellungen sind verfügbar. Die Installation kann Ihre Konfiguration verbessern aber auch Ihre Modifikationen überschreiben. Bitte wählen Sie wie Sie fortfahren möchten.</t>
-  <t id="L_UPD_DO_NOTHING" ver="19">Nichts aktualisieren, alte Einstellungen beibehalten</t>
-  <t id="L_UPD_DO_NEW" ver="19">Nur neue Einstellungen und Dateien</t>
-  <t id="L_UPD_ALL" ver="19">Alles aktualisieren</t>
-  <t id="L_UPD_HEAD" ver="19">Eine neue Version wurde installiert</t>
 </translation>
 

@@ -76,9 +76,9 @@
 <t id="M_PAUSE_JOB" ver="1">Pauzeren</t>
 <t id="M_KILL_JOB" ver="1">Stoppen</t>
 <t id="M_SD_CARD" ver="1">SD Kaart</t>
-<t id="M_TOGGLE_LOG" ver="1">Log</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filament</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filament</t>
+<t id="M_TOGGLE_LOG" ver="1">Log aan/uit</t>
+<t id="M_SHOW_FILAMENT" ver="1">Toon Filament</t>
+<t id="M_HIDE_FILAMENT" ver="1">Verberg Filament</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Filament Visualisatie uit</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Filament Visualisatie Aan</t>
 <t id="L_LOAD_FILE" ver="1">Laad Bestand</t>
@@ -498,9 +498,9 @@ Wijzigingen naar EEPROM schrijven?</t>
 <t id="L_UPLOADING_TIME" ver="4">Upload tijd: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Verplaatsing visualisatie uit</t>
-<t id="M_HIDE_TRAVEL" ver="4">Verplaatsing</t>
+<t id="M_HIDE_TRAVEL" ver="4">Verberg verplaatsing</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4"> Verplaatsing visualisatie aan</t>
-<t id="M_SHOW_TRAVEL" ver="4">Verplaatsing</t>
+<t id="M_SHOW_TRAVEL" ver="4">Toon verplaatsing</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Verplaatsingstap:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Verplaatsingstap visualisatie uit</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Aantal Extruders:</t>
@@ -660,9 +660,8 @@ Herladen van Objecte?]]></t>
 <t id="OBJECTS_ARE_IN_FOOT" ver="10">Objecten zijn in feet</t>
 <t id="OBJECTS_ARE_IN_METER" ver="10">Objecten zijn in meters</t>
 <t id="B_RESET" ver="10">Herstel</t>
-<t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition is een zelfstandige, extern programma, die ook zelfstandig gestart worden kan. Voor meer informatie over dit programma bezoek de volgende website: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r is een zelfstandige, extern programma, die ook zelfstandig gestart worden kan. Voor meer informatie over dit programma bezoek de volgende website: http://slic3r.org</t>
-  <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge is een zelfstandige, extern programma, die ook zelfstandig gestart worden kan. Voor meer informatie over dit programma bezoek de volgende website: http://http://fabmetheus.crsndoo.com/</t>
+<t id="L_SLIC3R_INFO2" ver="10">Slic3r is een zelfstandige, extern programma, die ook zelfstandig gestart worden kan. Voor meer informatie over dit programma bezoek de volgende website: http://www.slic3r.org</t>
+<t id="L_SKEINFORGE_INFO" ver="10">Skeinforge is een zelfstandige, extern programma, die ook zelfstandig gestart worden kan. Voor meer informatie over dit programma bezoek de volgende website: http://http://fabmetheus.crsndoo.com/</t>
 <t id="L_PRINT_SETTINGS:" ver="10">Print Instellingen:</t>
 <t id="L_PRINTER_SETTINGS:" ver="10">Printer instellingen:</t>
 <t id="L_OVERRIDE_SLIC3R_SETTINGS" ver="10">Overrulen Slic3r instellingen</t>
@@ -717,7 +716,7 @@ Herladen van Objecte?]]></t>
   <t id="L_ENABLE_ANTI_ALIAS" ver="10">Inschakelen anti-aliasing als mogelijk is (vertraagt visualisaties, herstart benodigd)</t>
   <t id="L_MODEL_ERRORS_EDGE:" ver="10">Model fouten (rand):</t>
   <t id="L_CUT_FACES:" ver="10">Snijden vlakken:</t>
-  <t id="L_NOT_MANIFOLD_INFO" ver="11">Het object is niet manifold. Dit komt erop neer dat het niet waterdicht is. Dit veroorzaakt normaal gesproken problemen bij slicen en resulteert in ongewilde resultaten. We bevelen het ten zeerste aan om het bestand te repareren. Een gratis reparatie service is: https://tools3d.azurewebsites.net </t>
+  <t id="L_NOT_MANIFOLD_INFO" ver="11">Het object is niet manifold. Dit komt erop neer dat het niet waterdicht is. Dit veroorzaakt normaal gesproken problemen bij slicen en resulteert in ongewilde resultaten. We bevelen het ten zeerste aan om het bestand te repareren. Een gratis reparatie service is: https://netfabb.azurewebsites.net </t>
   <t id="L_EXPERT_MODE" ver="11">Expert Modus</t>
 <t id="L_CURAENGINE_EXECUTABLE" ver="11">CuraEngine Uitvoerend Bestand</t>
 <t id="L_CURAENGINE_INFO" ver="11">CuraEngine is een apart, extern programma ontwikkeld door David Braam. Voor meer informatie bezoek https://www.ultimaker.com</t>
@@ -1645,5 +1644,4 @@ spleet sluit.</t>
 	hoe meer verhitting en kracht benodigd is om het
 	filament door de spuitkop te duwen.
   </t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">Let op: Je hebt een Repetier-Server-installatie. We raden het gebruik van de Repetier-Server connector in plaats. Klik op "Help" voor meer informatie.</t>
 </translation>

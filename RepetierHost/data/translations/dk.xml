@@ -75,9 +75,9 @@
 <t id="M_PAUSE_JOB" ver="1">Pause i job</t>
 <t id="M_KILL_JOB" ver="1">Stop Job</t>
 <t id="M_SD_CARD" ver="1">SD-kort</t>
-<t id="M_TOGGLE_LOG" ver="1">Log</t>
-<t id="M_SHOW_FILAMENT" ver="1">Plasttråd</t>
-<t id="M_HIDE_FILAMENT" ver="1">Plasttråd</t>
+<t id="M_TOGGLE_LOG" ver="1">Skift visning af Log</t>
+<t id="M_SHOW_FILAMENT" ver="1">Vis Plasttråd</t>
+<t id="M_HIDE_FILAMENT" ver="1">Skjul Plasttråd</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Visning af printet Plast deaktiveret</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Visning af printet Plast aktiveret</t>
 <t id="L_LOAD_FILE" ver="1">Hent fil</t>
@@ -485,9 +485,9 @@ Mulige årsager:
 <t id="L_UPLOADING_TIME" ver="4">Opload tid : $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil : $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Visning af transport veje deaktiveret</t>
-<t id="M_HIDE_TRAVEL" ver="4">Bevægelser</t>
+<t id="M_HIDE_TRAVEL" ver="4">Skjul visning af flytning af printerhoved</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Aktiver visning af flytning af printerhoved</t>
-<t id="M_SHOW_TRAVEL" ver="4">Bevægelser</t>
+<t id="M_SHOW_TRAVEL" ver="4">Vis mellem distanser</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Transport veje :</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Fjern visning af transport veje</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Antal ekstrudere :</t>
@@ -645,9 +645,8 @@ Mulige årsager:
 <t id="OBJECTS_ARE_IN_FOOT" ver="10">Emner vises i fod </t>
 <t id="OBJECTS_ARE_IN_METER" ver="10">Emner vises i meter</t>
 <t id="B_RESET" ver="10">Reset</t>
-<t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition er et eksternt program, som også kan køres separat. For yderligere informationer, kan du besøge følgende webside: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r er et eksternt program, som også kan køres separat. For yderligere informationer, kan du besøge følgende webside: http://slic3r.org</t>
-  <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge er et eksternt program, som også kan køres separat.
+<t id="L_SLIC3R_INFO2" ver="10">Slic3r er et eksternt program, som også kan køres separat. For yderligere informationer, kan du besøge følgende webside: http://www.slic3r.org</t>
+<t id="L_SKEINFORGE_INFO" ver="10">Skeinforge er et eksternt program, som også kan køres separat.
 	For yderligere informationer, kan du besøge følgende hjemmeside: http://fabmetheus.crsndoo.com/</t>
 <t id="L_PRINT_SETTINGS:" ver="10">Print indstillinger :</t>
 <t id="L_PRINTER_SETTINGS:" ver="10">Printer indstillinger :</t>
@@ -704,13 +703,12 @@ Mulige årsager:
 
 <t id="L_MODEL_ERRORS_EDGE:" ver="10">Model har fejl (kanter):</t>
 <t id="L_CUT_FACES:" ver="10">Afskårne flader:</t>
-<t id="L_NOT_MANIFOLD_INFO" ver="11">
-  Modellen er ikke vandtæt (not manifold).
-  Dette vil normalt give problemer for den valgte Slicer,
-  med uventet resultat som følge, selvom Slicer normalt
-  vil reparere en del fejl. Det anbefales at reparere sådanne filer først.
-  En gratis service for dette findes her: https://tools3d.azurewebsites.net
-</t>
+<t id="L_NOT_MANIFOLD_INFO" ver="11">Modellen er ikke vandtæt (not manifold).
+ Dette vil normalt give problemer for den valgte Slicer, 
+ med uventet resultat som følge, selvom Slicer normalt
+ vil reparere en del fejl. Det anbefales at reparere sådanne filer først.
+ En gratis service for dette findes her: https://netfabb.azurewebsites.net
+ </t>
 <t id="L_EXPERT_MODE" ver="11">Ekspert Tilstand</t>
 <t id="L_CURAENGINE_EXECUTABLE" ver="11">CuraEngine eksekverbar</t>
 <t id="L_CURAENGINE_INFO" ver="11">Cura-Engine er et separat externt program kreeret af David Braam.
@@ -1618,5 +1616,4 @@ Brug "Create Default" for at få et nyttigt udgangspunkt der kan ændres til det
   </t>
   <t id="L_SHOW_TRAVEL_MOVES" ver="11">Vis Transport Veje</t>
   <t id="L_PRINTING_STATISTICS" ver="11">Print Statistik</t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">Bemærk: Du har en Repetier-Server installation. Vi anbefaler at bruge Repetier-Server tilslutning i stedet. Klik på "Hjælp" for flere informationer.</t>
 </translation>

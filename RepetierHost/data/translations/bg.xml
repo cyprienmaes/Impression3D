@@ -77,8 +77,8 @@
 <t id="M_KILL_JOB" ver="1">Стоп</t>
 <t id="M_SD_CARD" ver="1">SD-карта</t>
 <t id="M_TOGGLE_LOG" ver="1">Журнал</t>
-<t id="M_SHOW_FILAMENT" ver="1">нишката</t>
-<t id="M_HIDE_FILAMENT" ver="1">нишката</t>
+<t id="M_SHOW_FILAMENT" ver="1">Скрий нишката</t>
+<t id="M_HIDE_FILAMENT" ver="1">Покажи нишката</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Визуализацията на нишката е изключена</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Визуализацията на нишката е включена</t>
 <t id="L_LOAD_FILE" ver="1">Зареди файл</t>
@@ -498,9 +498,9 @@
 <t id="L_UPLOADING_TIME" ver="4">Време за качване: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Нишка: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Визуализацията на пътя е изключена</t>
-<t id="M_HIDE_TRAVEL" ver="4">пътя</t>
+<t id="M_HIDE_TRAVEL" ver="4">Покажи пътя</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Визуализацията на пътя е включена</t>
-<t id="M_SHOW_TRAVEL" ver="4">пътя</t>
+<t id="M_SHOW_TRAVEL" ver="4">Скрий пътя</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Стъпки по пътя:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS">Изключи визуализацията на стъпките по пътя</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Брой екструдери:</t>
@@ -660,8 +660,7 @@ Reload objects?]]></t>
 <t id="OBJECTS_ARE_IN_FOOT" ver="10">Обектите са в футове</t>
 <t id="OBJECTS_ARE_IN_METER" ver="10">Обектите са в метри</t>
 <t id="B_RESET" ver="10">Ресет</t>
-  <t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition е самостоятелна външна програма, която може да бъде стартирана отделно. За повече информация, моля посетете следният сайт: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r е самостоятелна външна програма, която може да бъде стартирана отделно. За повече информация, моля посетете следният сайт: http://slic3r.org</t>
+<t id="L_SLIC3R_INFO2" ver="10">Slic3r е самостоятелна външна програма, която може да бъде стартирана отделно. За повече информация, моля посетете следният сайт: http://www.slic3r.org</t>
 <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge е самостоятелна външна програма, която може да бъде стартирана отделно. За повече информация, моля посетете следният сайт: http://fabmetheus.crsndoo.com/</t>
 <t id="L_PRINT_SETTINGS:" ver="10">Настройки за печат:</t>
 <t id="L_PRINTER_SETTINGS:" ver="10">Настройки на принтера:</t>
@@ -717,7 +716,7 @@ Reload objects?]]></t>
   <t id="L_ENABLE_ANTI_ALIAS" ver="10">Разреши anti-aliasing при възможност (забавя визуализацията, изисква рестарт)</t>
   <t id="L_MODEL_ERRORS_EDGE:" ver="10">Грешки в модела (ръбове):</t>
   <t id="L_CUT_FACES:" ver="10">Отрязани лица:</t>
-  <t id="L_NOT_MANIFOLD_INFO" ver="11">Обектът съдържа пробойни. Обикновено това създава проблеми при нарязването и води до нежелани резултати. Строго препоръчваме да поправите обекра. Безплатна услуга за поправки можете да намерите тук: https://tools3d.azurewebsites.net </t>
+  <t id="L_NOT_MANIFOLD_INFO" ver="11">Обектът съдържа пробойни. Обикновено това създава проблеми при нарязването и води до нежелани резултати. Строго препоръчваме да поправите обекра. Безплатна услуга за поправки можете да намерите тук: https://netfabb.azurewebsites.net </t>
   <t id="L_EXPERT_MODE" ver="11">Експертен режим</t>
 <t id="L_CURAENGINE_EXECUTABLE" ver="11">Изпълним CuraEngine</t>
 <t id="L_CURAENGINE_INFO" ver="11">CuraEngine е отделна, външна програма, разработена от David Braam. За повече информация посетете: https://www.ultimaker.com</t>
@@ -1635,6 +1634,5 @@ Reload objects?]]></t>
   <t id="L_0_OR_PRINTERSETTINGS:" ver="12">[mm или 0 = използвай стойност от "Настройки на принтера"]</t>
   <t id="L_SEE_ALSO_PRINTERSETTINGS" ver="12">Слайсерът също използва параметри, зададени в "Настройки на принтера" -> "Екструдери"!</t>
   <t id="L_SHOW_QUICKSETTINGS" ver="12">Покажи бързи настройи</t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">Забележете: Имате инсталация Repetier-Server. Ние силно препоръчваме да използвате конектора Repetier-Server, вместо. Натиснете бутона "Помощ" за повече информация. </t>
 </translation>
 

@@ -77,8 +77,8 @@
 <t id="M_KILL_JOB" ver="1">Çalışmayı İptal Et</t>
 <t id="M_SD_CARD" ver="1">SD Kart</t>
 <t id="M_TOGGLE_LOG" ver="1">Kayıt Penceresi</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filamanı</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filamanı</t>
+<t id="M_SHOW_FILAMENT" ver="1">Filamanı Göster</t>
+<t id="M_HIDE_FILAMENT" ver="1">Filamanı Sakla</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Filaman Gösterimi Devredışı!</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Filaman Gösterimi Devrede!</t>
 <t id="L_LOAD_FILE" ver="1">Dosya Yükle</t>
@@ -498,9 +498,9 @@ Write Changes to EEPROM?</t>
 <t id="L_UPLOADING_TIME" ver="4">Karşıya Yükleme Süresi: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Travel visualization disabled</t>
-<t id="M_HIDE_TRAVEL" ver="4">Hareketler</t>
+<t id="M_HIDE_TRAVEL" ver="4">Hide Travel</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Travel visualization enabled</t>
-<t id="M_SHOW_TRAVEL" ver="4">Hareketler</t>
+<t id="M_SHOW_TRAVEL" ver="4">Show Travel</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Travel Moves:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Disable Travel Move Visualization</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Number of Extruder:</t>
@@ -614,6 +614,5 @@ Write Changes to EEPROM?</t>
 <t id="L_ANA_CORRECTED_NORMAL_ORIENTATIONS" ver="9">Corrected normal orientations:</t>
 <t id="L_OBJECT_IS_MANIFOLD" ver="9">Object is manifold.</t>
 <t id="L_OBJECT_IS_NON_MANIFOLD" ver="9">Object is non-manifold. Slicing may produce wrong results. Please repair object file first.</t>
-<t id="L_SERVER_CONNECTOR_HINT" ver="17">Uyarı: Bir Repetier-Server yüklemesi var. Biz çok yerine Repetier-Server bağlantısını kullanarak öneriyoruz. Detaylı bilgi için "Yardım" ı tıklayın.</t>
 </translation>
 

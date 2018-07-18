@@ -76,9 +76,9 @@
 <t id="M_PAUSE_JOB" ver="11">Pause Print</t>
 <t id="M_KILL_JOB" ver="11">Kill Print</t>
 <t id="M_SD_CARD" ver="1">SD Card</t>
-<t id="M_TOGGLE_LOG" ver="1">Log</t>
-<t id="M_SHOW_FILAMENT" ver="1">Filament</t>
-<t id="M_HIDE_FILAMENT" ver="1">Filament</t>
+<t id="M_TOGGLE_LOG" ver="1">Toggle Log</t>
+<t id="M_SHOW_FILAMENT" ver="1">Show Filament</t>
+<t id="M_HIDE_FILAMENT" ver="1">Hide Filament</t>
 <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Filament visualization disabled</t>
 <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Filament visualization enabled</t>
 <t id="L_LOAD_FILE" ver="1">Load file</t>
@@ -305,7 +305,7 @@ view. Logging changes are active after next start.</t>
 <t id="REDUCE_TOOLBAR_SIZE" ver="1">Reduce Toolbar Size</t>
 <t id="L_DISABLE_QUALITY_REDUCTION" ver="1">Disable Quality Reduction</t>
 <t id="L_EXISTING_WORKDIR_REQUIRED" ver="1">Existing work directory required!</t>
-<t id="L_WORKDIR:" ver="1">Work Directory:</t>
+<t id="L_WORKDIR:" ver="1">Workdirectory:</t>
 <t id="B_BROWSE" ver="1">Browse...</t>
 <t id="L_SELECT_WORKING_DIRECTORY" ver="1">Select Working Directory</t>
 <t id="L_PAST_60_MINUTES" ver="1">Past 60 Minutes</t>
@@ -498,16 +498,15 @@ Write Changes to EEPROM?</t>
 <t id="L_UPLOADING_TIME" ver="4">Uploading time: $1</t>
 <t id="L_FILAMENT_POS" ver="4">Fil: $1</t>
 <t id="L_TRAVEL_VISUALIZATION_DISABLED" ver="4">Travel visualization disabled</t>
-<t id="M_HIDE_TRAVEL" ver="4">Travel</t>
+<t id="M_HIDE_TRAVEL" ver="4">Hide Travel</t>
 <t id="L_TRAVEL_VISUALIZATION_ENABLED" ver="4">Travel visualization enabled</t>
-<t id="M_SHOW_TRAVEL" ver="4">Travel</t>
+<t id="M_SHOW_TRAVEL" ver="4">Show Travel</t>
 <t id="L_TRAVEL_MOVES:" ver="4">Travel Moves:</t>
 <t id="L_DISABLE_TRAVEL_MOVES_VIS" ver="4">Disable Travel Move Visualization</t>
 <t id="L_NUMBER_OF_EXTRUDER:" ver="5">Number of Extruder:</t>
 <t id="L_NEW_FOLDER" ver="5">New Folder</t>
 <t id="L_USE_PARALLEL_PROJECTION" ver="5">Use Parallel Projection</t>
 <t id="L_USE_RED_GREEN_SWITCH" ver="5">Use red/green switch buttons (requires restart)</t>
-<t id="L_LAST_SLICE_RUNNING" ver="6">Last slice still running. New job canceled.</t>
 <t id="L_SLIC3R_NOT_FOUND" ver="6">Slic3r not found.</t>
 <t id="L_ANALYSING_STL" ver="6">Analyzing STL file ...</t>
 <t id="L_SLICING_STL" ver="6">Slicing STL file ...</t>
@@ -589,7 +588,7 @@ Reload objects?]]></t>
 <t id="L_ASSOCIATE_EXTENSIONS" ver="9">Associate Extensions</t>
 <t id="L_CONNECTION_FAILED" ver="9">The connection failed with the following error: $1. Make sure your printer is connected, enabled and connection data is set correct. Open printer settings?</t>
 <t id="L_AUTOENABLE_PARALLEL_TOPVIEW" ver="9">Enable parallel mode in top view</t>
-<t id="L_RESET_DEFAULTS" ver="9">Reset to Defaults</t>
+<t id="L_RESET_DEFAULTS" ver="9">Reset defaults</t>
 <t id="L_REMOVED_DEGENERATED" ver="9">Removed degenerated triangles:</t>
 <t id="L_REMOVED_ISOLATED" ver="9">Removed isolated triangles:</t>
 <t id="L_REMOVED_DOUBLE" ver="9">Removed double triangles:</t>
@@ -639,7 +638,7 @@ Reload objects?]]></t>
 <t id="L_NOT_TESTED" ver="10">Not tested</t>
 <t id="L_CONNECTOR:" ver="10">Connector:</t>
 <t id="L_NORMAL_CORRECTION_IMPOSSIBLE" ver="10">Normal correction not possible for non-manifold meshes.</t>
-<t id="M_MED_HEIGHT_MAP" var="10">Bed Height Map</t>
+<t id="M_MED_HEIGHT_MAP" var="10">Bed height map</t>
 <t id="M_CREATE_HEIGHT_MAP" var="10">Create Height Map</t>
 <t id="B_MEASURE_HEIGHTS" ver="10">Measure Heights</t>
 <t id="B_RESULT_TO_CLIPBOARD" ver="10">Result to Clipboard</t>
@@ -650,7 +649,7 @@ Reload objects?]]></t>
 <t id="L_Z_MIN:" ver="10">Z min:</t>
 <t id="L_Z_MAX:" ver="10">Z max:</t>
 <t id="L_Z_AVG:" ver="10">Z avg:</t>
-<t id="L_Z_CENTER:" ver="10">Z Center</t>
+<t id="L_Z_CENTER:" ver="10">Z center</t>
 <t id="L_CUT_FACES" ver="10">Cut Objects</t>
 <t id="L_CUT_POSITION" ver="10">Position</t>
 <t id="L_CUT_INCLINATION" ver="10">Inclination</t>
@@ -661,9 +660,8 @@ Reload objects?]]></t>
 <t id="OBJECTS_ARE_IN_FOOT" ver="10">Objects are in feet</t>
 <t id="OBJECTS_ARE_IN_METER" ver="10">Objects are in meter</t>
 <t id="B_RESET" ver="10">Reset</t>
-<t id="L_SLIC3RPE_INFO2" ver="10">Slic3r Prusa Edition is separate, external program, which can be started separately. For further informations, please visit the following webpage: https://www.prusa3d.com/slic3r-prusa-edition</t>
-  <t id="L_SLIC3R_INFO2" ver="10">Slic3r is separate, external program, which can be started separately. For further informations, please visit the following webpage: http://slic3r.org</t>
-  <t id="L_SKEINFORGE_INFO" ver="10">Skeinforge is separate, external program, which can be started separately. For further informations, please visit the following webpage: http://fabmetheus.crsndoo.com/</t>
+<t id="L_SLIC3R_INFO2" ver="10">Slic3r is separate, external program, which can be started separately. For further informations, please visit the following webpage: http://www.slic3r.org</t>
+<t id="L_SKEINFORGE_INFO" ver="10">Skeinforge is separate, external program, which can be started separately. For further informations, please visit the following webpage: http://fabmetheus.crsndoo.com/</t>
 <t id="L_PRINT_SETTINGS:" ver="10">Print Setting:</t>
 <t id="L_PRINTER_SETTINGS:" ver="10">Printer Settings:</t>
 <t id="L_OVERRIDE_SLIC3R_SETTINGS" ver="10">Override Slic3r Settings</t>
@@ -716,9 +714,9 @@ Reload objects?]]></t>
 <t id="L_SHOW_OUTPUT_BED" ver="10">Output Bed</t>
 <t id="M_SHOW_BED_POWER" ver="10">Show Bed Power</t>
   <t id="L_ENABLE_ANTI_ALIAS" ver="10">Enable anti-aliasing if possible (slows down visualization, restart required)</t>
-  <t id="L_MODEL_ERRORS_EDGE:" ver="10">Model Errors (edge):</t>
+  <t id="L_MODEL_ERRORS_EDGE:" ver="10">Model errors (egde):</t>
   <t id="L_CUT_FACES:" ver="10">Cut faces:</t>
-  <t id="L_NOT_MANIFOLD_INFO" ver="11">The object is not manifold. This essentially means, that it is not watertight. This normally causes problems during slicing, resulting in unwanted results. We strongly advice to repair the file. One free repair service is: https://tools3d.azurewebsites.net </t>
+  <t id="L_NOT_MANIFOLD_INFO" ver="11">The object is not manifold. This essentially means, that it is not watertight. This normally causes problems during slicing, resulting in unwanted results. We strongly advice to repair the file. One free repair service is: https://netfabb.azurewebsites.net </t>
   <t id="L_EXPERT_MODE" ver="11">Expert Mode</t>
 <t id="L_CURAENGINE_EXECUTABLE" ver="11">CuraEngine Executable</t>
 <t id="L_CURAENGINE_INFO" ver="11">CuraEngine is separate, external program developed by David Braam. For more informations visit https://www.ultimaker.com</t>
@@ -743,13 +741,13 @@ Reload objects?]]></t>
   <t id="L_PUSH_HEAD_PAUSED" ver="11">Print paused</t>
   <t id="L_PUSH_MSG_PAUSED" ver="11">Print for printer $1 is paused. Message: $2</t>
   <t id="L_PUSH_HEAD_FINISHED" ver="11">Print finished</t>
-  <t id="L_PUSH_MSG_FINISHED" ver="11">Print for printer $1 is finished. Printing time: $2. Lines send to printer: $3</t>
+  <t id="L_PUSH_MSG_FINISHED" ver="11">Print for printer $1 is finsihed. Printing time: $2. Lines send to printer: $3</t>
   <t id="L_PUSH_HEAD_KILLED" ver="11">Print stopped</t>
-  <t id="L_PUSH_MSG_KILLED" ver="11">Print for printer $1 was stopped before it was finished.</t>
-  <t id="L_PUSH_HEAD_SLICING" ver="11">Slicing finished</t>
-  <t id="L_PUSH_MSG_SLICING" ver="11">Slicing for printer $1 is now finished.</t>
+  <t id="L_PUSH_MSG_KILLED" ver="11">Print for printer $1 was stopped before it was finsihed.</t>
+  <t id="L_PUSH_HEAD_SLICING" ver="11">Slicing finsihed</t>
+  <t id="L_PUSH_MSG_SLICING" ver="11">Slicing for printer $1 is now finsihed.</t>
   <t id="L_PUSH_HEAD_FATAL" ver="11">Fatal error</t>
-  <t id="L_PUSH_MSG_FATAL" ver="11">A fatal error for printer $1 occured. Message: $2</t>
+  <t id="L_PUSH_MSG_FATAL" ver="11">A fatal error for printer printer $1 occured. Message: $2</t>
   <t id="L_CURA_EXTRUDER_INFO" ver="11">CuraEngine only supports one extruder diameter and flow value, because it assumes identical extruders. If you have a multi-extruder setup with different values, the values from the first extruder are used for all. Print temperatures are set in the start g-code, so using different temperatures for different materials is no problem. For cooling the highest values of all extruders are used.</t>
   <t id="L_TCPIP_CONNECTION" ver="11">TCP/IP Connection</t>
   <t id="L_IP_ADDRESS:" ver="11">IP Address:</t>
@@ -1323,8 +1321,8 @@ so closing the gap.</t>
 
   <t id="H_CONTROL_SCRIPTX" ver="11">
     Sends the script $1 to the printer. You can
-    view and modify the scripts by right clicking
-    the button.
+    view and modify the scripts in the drop-down
+    list at Preview → G-Code Editor.
   </t>
 
   <t id="H_CONTROL_SPEED" ver="11">
@@ -1667,198 +1665,5 @@ so closing the gap.</t>
   <t id="L_INFORMER_URL_INFO" ver="12">Adds the above link to any message. E.g. a web enabled webcam url.</t>
   <t id="L_PUSH_SD_STARTED" ver="12">Print over sd card on printer $1 started.</t>
   <t id="L_PUSH_SD_FINISHED" ver="12">Print over sd card on printer $1 finished.</t>
-  <t id="L_FIRST_LAYER_EXTRUSION_WIDTH:" ver="12">First Layer Extrusion Width:</t>
-  <t id="H_FIRST_LAYER_EXTRUSION_WIDTH" ver="12">
-    For a better adhesion to the bed, it is often advantageous for the first
-    layer to extrude more filament and thereby become wider. Here you can set
-    how much wider the baseline compared to conventional extrusion is. 
-    The line density is adjusted accordingly.</t>
-  <t id="L_MIRROR_OBJECT" ver="12">Mirror Object</t>
-  <t id="L_X_HOURS" ver="12">$1 Hours</t>
-  <t id="L_PUSH_MSG_PROGRESS" ver="12">The print on $1 will be finished around $2.</t>
-  <t id="L_PUSH_MSG_PROGRESS_SD" ver="12">The print on $1 has finished $2%.</t>
-  <t id="L_PUSH_HEAD_PROGRESS" ver="12">Progress update</t>
-  <t id="L_PROGRESS_EVERY" ver="12">Progress every</t>
-  <t id="L_POSITION_OBJECT" ver="12">Position Object</t>
-  <t id="L_OBJECTS_CHANGED" ver="12">Object arrangement has changed since last slice. Really start this job?</t>
-  <t id="H_SKIN_SPEED" ver="13">Speed for outer full infill. Allows you to do faster internal infill without decreasing outer surface quality.</t>
-  <t id="L_SKIN_INFILL:" ver="13">Skin Infill:</t>
-  <t id="L_NEVER" ver="13">Never</t>
-  <t id="L_ALWAYS" ver="13">Always</t>
-  <t id="L_ONLY_SKIN" ver="13">Always Except for Skin</t>
-  <t id="L_API_KEY:" ver="13">Api Key:</t>
-  <t id="H_PS_RS_APIKEY" ver="13">Global api key or api key of a user with print permissions.</t>
-  <t id="L_RS_CONNECTION_INFO" ver="13">This connector allows direct connection to a running Repetier-Server running on this or a remotely reachable device.To make it connect, enter the servers ip/hostname and port as well as the api key. You can use the global api key or the api key of a existing user with print permissions. Connect will then connect to the server instead of the printer directly. You can disconnect and reconnect any time, even while printing!</t>
-  <t id="TAB_PRINT" ver="13">Print</t>
-  <t id="L_PERIMETER_BEFORE_INFILL" ver="13">Perimeter before Infill</t>
-  <t id="H_PS_PERIMETER_BEFORE_INFILL" ver="13">Defines if perimeter or infill gets printed first,</t>
-  <t id="L_OFFLINE" ver="13">Offline</t>
-  <t id="L_NO_PORT_ONLINE" ver="13">No port available for autoselect. Please connect your printer first!</t>
-  <t id="L_TEMPERATURE_REACHED" ver="14">Temperature Reached</t>
-  <t id="L_RS_MINVERSION" ver="14">You need at minumum version $1 of Repetier-Server to connect.</t>
-  <t id="L_NO_PRINTER_SELECTED" ver="14">--- No Printer Selected ---</t>
-  <t id="L_OTHER_PRINTER_CONNECTED" ver="14">You are connected with an other printer. 
-  Please close connection first to continue.</t>
-  <t id="L_RS_NOAUTH" ver="14">Authorization with Server failed. Please check your Api Key.</t>
-  <t id="L_RS_WRONG_IP" ver="14">Could not connect to server. 
-  Please verify IP number and port and 
-  check if server is enabled.</t>
-  <t id="TAB_SERVER" ver="14">Server</t>
-  <t id="L_RS_COPY_INFO" ver="14">Most settings were pulled from the server and saved. 
-  Some settings are not available and were left unchanged.</t>
-  <t id="L_RS_COPY_CONFIG" ver="14">Copy Server Config Settings</t>
-  <t id="L_SERVER_DISCONNECTED" ver="14">Server Disconnected</t>
-  <t id="L_PRINTER_OFFLINE" ver="14">Printer Offline</t>
-  <t id="L_PRINTER_DEACTIVATED" ver="14">Printer Deactivated</t>
-  <t id="L_SAVE_TO_SERVER" ver="14">Save to Server</t>
-  <t id="L_WILL_OVERWRITE_EXISTING" ver="14">Will overwrite existing file!</t>
-  <t id="L_RS_NO_UPLOAD_PERMISSION" ver="14">You have no upload permissions!</t>
-  <t id="L_RS_NO_PRINT_PERMISSION" ver="14">You have no print permissions!</t>
-  <t id="L_RS_NOPRINTERS" ver="14">Server has no printers defined. 
-  Can not connect. Please define first at
-least one printer and try again.</t>
-  <t id="L_INFO" ver="14">Info</t>
-  <t id="T_WAITING_PRINTS">Waiting Prints</t>
-  <t id="T_STORED_PRINTS">Stored Prints</t>
-  <t id="L_TIMES">times</t>
-  <t id="L_LENGTH">Length</t>
-  <t id="L_WEIGHT">Weight</t>
-  <t id="L_COST">Cost</t>
-  <t id="L_FILAMENT">Filament</t>
-  <t id="L_PRINTED">Printed</t>
-  <t id="L_UPLOADED">Uploaded</t>
-  <t id="L_FILE_SIZE">File Size</t>
-  <t id="L_VOLUMETRIC_EXTRUSION">Volumetric Extrusion</t>
-  <t id="L_PER_EXTRUDER_VALUES" ver="14">Per Extruder Values</t>
-  <t id="L_TOTAL_VALUES" ver="14">Total Values</t>
-  <t id="L_EXTR" ver="14">Extr.</t>
-  <t id="L_TOTAL_PRICE:" ver="14">Total Price:</t>
-  <t id="L_SCRIPTS" ver="14">Scripts</t>
-  <t id="L_SCRIPT" ver="14">Script</t>
-  <t id="B_SAVE_FOR_SD_PRINT" ver="14">Save for SD Print</t>
-  <t id="L_PRINT_PREVIEW" ver="14">Print Preview</t>
-  <t id="TAB_SEARCH" ver="14">Search</t>
-  <t id="L_SEARCHTERM" ver="14">Search:</t>
-  <t id="L_REPLACETERM" ver="14">Replace:</t>
-  <t id="B_SEARCH" ver="14">Search</t>
-  <t id="B_REPLACE_SEARCH" ver="14">Replace &amp;&amp; Search</t>
-  <t id="B_REPLACE" ver="14">Replace</t>
-  <t id="L_SAVE_TO_FILE" ver="14">Save to File</t>
-  <t id="L_EDIT_GCODE" ver="14">Edit G-Code</t>
-  <t id="TAB_GCODE_SYNTAX" ver="14">G-Code Syntax</t>
-  <t id="M_USING_REPETIER_SERVER" ver="14">Using Repetier-Server</t>
-  <t id="M_REPETIER_SERVER_MANUAL" ver="14">Repetier-Server Manual</t>
-  <t id="M_START_SERVER" ver="14">Start Local Server</t>
-  <t id="M_STOP_SERVER" ver="14">Stop Local Server</t>
-  <t id="M_OPEN_SERVER_FRONTEND" ver="14">Open Server Frontend</t>
-  <t id="L_VIEW_CROSS_SECTION" ver="14">View Cross Section</t>
-  <t id="M_SERVER" ver="14">Server</t>
-  <t id="L_AUTO_ZOOM_OBJECTS" ver="14">Auto Zoom on Objects</t>
-  <t id="L_AUTO_POSITION_OBJECTS" ver="14">Auto Position Object when new Object is Added</t>
-  <t id="L_TRAVEL_ACCELERATION" ver="14">Travel Accleration</t>
-  <t id="L_CONNECT_TO_CONTINUE" ver="14">Connect to Continue</t>
-  <t id="L_ZOOM_SPEED_FACTOR" ver="14">Zoom Speed Factor</t>
-  <t id="L_WARN_JOB_RUNNING_CLOSE" ver="14">You have a running job. Closing the connection will ruin your print. Close anyway?</t>
-  <t id="M_SAVE_GCODE_SERVER" ver="14">Save G-Code to Server</t>
-  <t id="L_SAVE_GCODE_AS" ver="14">Save G-Code as</t>
-  <t id="L_WILL_OVERWRITE_EXISTING_FILE" ver="14">Will overwrite existing file!</t>
-  <t id="L_FLIP_X_Y" ver="15">Flip X and Y</t>
-  <t id="H_FLIP_X_Y" ver="15">Flips the buttons for x and y movements in manual control.</t>
-  <t id="L_SHOW" ver="15">Show</t>
-  <t id="L_COLOR" ver="16">Color</t>
-  <t id="L_MANAGER" ver="16">Manager</t>
-  <t id="L_PROGRESS" ver="16">Progress</t>
-  <t id="L_COMMUNICATION_TIMEOUT" ver="16">Communication Timeout</t>
-  <t id="L_EASY_MODE" ver="16">Easy Mode</t>
-  <t id="L_FATAL_ERROR" ver="16">Fatal Error</t>
-  <t id="L_FATAL_ERROR_INFO" ver="16">A fatal error on the printer side stopped the printer until the error is fixed. Printer message:</t>
-  <t id="E_SENSOR_DEFECT" ver="17">Temperature sensor defect</t>
-  <t id="E_DECOUPLED" ver="17">Temp. sensor and heater decoupled</t>
-  <t id="E_SLIPPING" ver="17">Filament is slipping</t>
-  <t id="E_JAMMED" ver="17">Extruder is jammed</t>
-  <t id="E_JAMMED_OR_NO_FILAMENT" ver="17">Extruder jammed or out of filament</t>
-  <t id="E_OUT_OF_FILAMENT" ver="17">Out of filament</t>
-  <t id="E_UNKNOWN_ERROR" ver="17">Unknown error</t>
-  <t id="L_SERVER_CONNECTOR_HINT" ver="17">Notice: You have a Repetier-Server installation. We highly recommend using the Repetier-Server connector instead. Click "Help" for more informations.</t>
-  <t id="L_PRINTER_ERRORS" ver="17">Printer Errors</t>
-  <t id="L_PRINT_TIME" ver="18">Print Time</t>
-  <t id="L_GROUP" ver="18">Group</t>
-  <t id="L_ADD_GROUP" ver="18">Add Group</t>
-  <t id="L_DELETE_GROUP_X" ver="18">Delete Group $1</t>
-  <t id="L_DELETE_GROUP" ver="18">Delete Group</t>
-  <t id="L_DEL_GROUP_MOVE" ver="18">Delete group, move files to default</t>
-  <t id="L_DEL_GROUP_DEL" ver="18">Delete group and contained files</t>
-  <t id="L_REPAIR_IN_PROGRESS" ver="18">A repair process is still running. Please try again when finished.</t>
-  <t id="L_NOT_MANIFOLD_INFO_LR" ver="18">The object is not manifold. This essentially means, that it is not watertight. This normally causes problems during slicing, resulting in unwanted results. We strongly advice to repair the model.</t>
-  <t id="L_REPAIRING..." ver="18">Repairing ...</t>
-  <t id="L_WEBCAM" ver="18">Webcam</t>
-  <t id="L_FILAMENT_EXTR_X" ver="18">Filament Extr.$1:</t>
-  <t id="L_WIPE_NOZZLE_PRIME" ver="18">Wipe Nozzle on Prime Tower</t>
-  <t id="L_PRIME_POS_X" ver="18">Prime Tower X Position:</t>
-  <t id="L_PRIME_POS_Y" ver="18">Prime Tower Y Position:</t>
-  <t id="L_SHOW_PRINTER_MODEL" ver="18">Show Printer Model</t>
-  <t id="L_HIDE_PRINTERMODEL_BOTTOM" ver="18">Hide if viewed from bottom</t>
-  <t id="L_SHUTDOWN_QUESTION" ver="18">This will shutdown Windows 5 minutes after the print has finished. Other software might prevent Windows from being shutdown! On next startup the function is disabled.</t>
-  <t id="M_SHUTDOWN_WINDOWS" ver="18">Shutdown Windows after print</t>
-  <t id="L_ENABLE_LAYERHEIGHT_EDITOR" ver="18">Enable Variable Layer Height Editor</t>
-  <t id="L_USE_VARIABLE_LAYER_HEIGHTS" ver="18">Use variable Layer Heights</t>
-  <t id="L_MIN_LAYER_HEIGHT" ver="18">Min. Layer Height:</t>
-  <t id="L_MAX_LAYER_HEIGHT" ver="18">Max. Layer Height:</t>
-  <t id="L_CURRENT_Z" ver="18">Current Z:</t>
-  <t id="L_LAYER_HEIGHT_SET" ver="18">Layer Height Set:</t>
-  <t id="L_LAYER_HEIGHT_MOUSE" ver="18">Layer Height Mouse:</t>
-  <t id="L_LAYER_INFLUENCE_HEIGHT" ver="18">Influence Height:</t>
-  <t id="L_RESET_LAYER_HEIGHTS" ver="18">Reset Heights</t>
-  <t id="L_PRESERVE_LAYERHEIGHT" ver="18">Try to preserve model positions</t>
-  <t id="L_PRESERVE_LAYERHEIGHT_A" ver="18">Variable layer height and per object slicing is then not possible!</t>
-  <t id="L_PRESERVE_LAYERHEIGHT_B" ver="18">Per object slicing is then not possible!</t>
-  <t id="L_SLIC3R_LAYER_INFO" ver="18">Please disable the 'Try to preserve model position' checkbox to use variable layers. It will still preserve position for one object, but with multiple objects Slic3r will reposition them.</t>
-  <t id="L_REPAIR_FAILED" ver="18">Repair failed. Keeping old copy.</t>
-  <t id="L_NUM_FANS" ver="18">Number of Fans:</t>
-  <t id="L_SAVING___" ver="18">Saving...</t>
-  <t id="L_AUTOCONNECT_ON_STARTUP">Autoconnect at Startup if Possible</t>
-  <t id="L_FILAMENTCHANGE_REQUIRED">Filamentchange required.</t>
-  <t id="L_VELOCITY_PAINTING" ver="18">Velocity Painting</t>
-  <t id="L_LOAD_IMAGE" ver="18">Load Image</t>
-  <t id="L_INVERT_IMAGE" ver="18">Invert Image</t>
-  <t id="L_ROTATE_IMAGE" ver="18">Rotate Image</t>
-  <t id="L_TRIGGER_SPEED:" ver="18">Trigger Speed:</t>
-  <t id="L_LOW_SPEED:" ver="18">Low Speed:</t>
-  <t id="L_HIGH_SPEED:" ver="18">High Speed:</t>
-  <t id="L_VEL_SPEED_INFO" ver="18">Only extrusions with 'Trigger Speed' get converted. Black image parts get low speed, white parts high speed.</t>
-  <t id="L_IMAGE_SCALING" ver="18">Image Scaling</t>
-  <t id="L_VEL_SCALING_INFO" ver="18">Size of the image used for projection.</t>
-  <t id="L_WIDTH:" ver="18">Width:</t>
-  <t id="L_HEIGHT:" ver="18">Height:</t>
-  <t id="L_PROJECTION" ver="18">Projection</t>
-  <t id="L_PROJECTION_METHOD" ver="18">Projection Method:</t>
-  <t id="L_XCENTER:" ver="18">X Center:</t>
-  <t id="L_YCENTER:" ver="18">Y Center:</t>
-  <t id="L_ZCENTER:" ver="18">Z Center:</t>
-  <t id="L_VEL_PROJECTION_INFO" ver="18">The center defines the projection origin. For plane projections only 2 values are used. Cylindrical and spherical projection mark the center of the cylinder resp. sphere. </t>
-  <t id="L_GUESS_FROM_PROJECTION" ver="18">Guess from Projection Method</t>
-  <t id="L_GENERATE_VELOCITY" ver="18">Generate Velocity Painting</t>
-  <t id="L_TUTORIAL" ver="18">Tutorial</t>
-  <t id="L_IMAGE_PREVIEW" ver="18">Image Preview</t>
-  <t id="L_VEL_PROJ0" ver="18">Cylindrical Projection</t>
-  <t id="L_VEL_PROJ1" ver="18">Project on X-Z-Plane</t>
-  <t id="L_VEL_PROJ2" ver="18">Project on Y-Z Plane</t>
-  <t id="L_VEL_PROJ3" ver="18">Project on X-Y Plane</t>
-  <t id="L_VEL_PROJ4" ver="18">Spherical Projection</t>
-  <t id="L_PRINT_SPEEDS" ver="18">Print Speeds</t>
-  <t id="L_PROVIDE_IMAGE_FIRST" ver="18">You need to provide an image first!</t>
-  <t id="L_SLICE_FIRST" var="18">You need to slice the object first!</t>
-  <t id="L_SUGGESTIONS_BASED_ON" ver="18">Suggestions are based on the one model placed on the bed assuming that sliced result is at the same position. You do not have only one object on the bed!</t>
-  <t id="L_FILAMENTJAM_DETECTED" ver="18">Filamentjam detected. Please check your printer.</t>
-  <t id="L_UPD_INFO" ver="19">The software has been updated and new settings are now available. Installing them might improve your configuration but can also overwrite your modifications. Please select, how to proceed.</t>
-  <t id="L_UPD_DO_NOTHING" ver="19">Do Nothing, keep my old settings</t>
-  <t id="L_UPD_DO_NEW" ver="19">Only set new Settings and Files</t>
-  <t id="L_UPD_ALL" ver="19">Update Everything</t>
-  <t id="L_UPD_HEAD" ver="19">New Version was Installed</t>
-  <t id="L_RESET_FACTORY_QUESTION" ver="19">Reset to factory default will reconfigure the printer settings and slicer profiles to the original version. Additionally added printers and profiles will not be changed. This will restart the Application to update the data. Continue?</t>
-  <t id="L_FIRMWARE_TYPE:" ver="19">Firmware Type:</t>
-  <t id="L_SHOW_WEBCAM" ver="19">Show Webcam</t>
-  <t id="L_PRIVACY_POLICY" ver="20">Privacy Policy</t>
-  <t id="L_ACCEPT_PRIVACY" ver="20">I have read and accepted the privacy policy</t>
 </translation>
 
